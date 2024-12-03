@@ -6,50 +6,141 @@
         "value": "@value",
         "id": "@id",
         "gln": "gs1:globalLocationNumber",
-        "measurementUnitCode": "gs1:unitCode",
         "currencyCode": "gs1:priceCurrency",
-        "additionalOrderInstruction":	{"@id":"gs1:additionalOrderInstruction"},
-		"additionalOrderLineInstruction":	{"@id":"gs1:additionalOrderLineInstruction"},
-		"amount":	{"@id":"gs1:amount", "@type":"xsd:float"},
-		"buyer":	{"@id":"gs1:buyer"},
-		"contentOwner":	{"@id":"gs1:contentOwner"},
-		"creationDateTime":	{"@id":"gs1:creationDateTime", "@type":"xsd:dateTimeStamp"},
-		"documentStatusCode":	{"@id":"gs1:documentStatusCode"},
-		"dutyFeeTaxAmount":	{"@id":"gs1:dutyFeeTaxAmount"},
-		"dutyFeeTaxBasisAmount":	{"@id":"gs1:dutyFeeTaxBasisAmount"},
-		"dutyFeeTaxPercentage":	{"@id":"gs1:dutyFeeTaxPercentage","@type":"xsd:float"},
-		"dutyFeeTaxTypeCode":	{"@id":"gs1:dutyFeeTaxTypeCode"},
-		"entityIdentification":	{"@id":"gs1:entityIdentification"},
-		"gtin":	{"@id":"gs1:gtin"},
-		"inventoryLocation":	{"@id":"gs1:inventoryLocation"},
-		"isApplicationReceiptAcknowledgementRequired":	{"@id":"gs1:isApplicationReceiptAcknowledgementRequired", "@type": "xsd:boolean"},
-		"leviedDutyFeeTax":	{"@id":"gs1:leviedDutyFeeTax"},
-		"lineItemActionCode":	{"@id":"gs1:lineItemActionCode"},
-		"lineItemNumber":	{"@id":"gs1:lineItemNumber", "@type":"xsd:integer"},
-		"measurementUnitCode":	{"@id":"gs1:unitCode"},
-		"netAmount":	{"@id":"gs1:netAmount"},
-		"netPrice":	{"@id":"gs1:netPrice"},
-		"note":	{"@id":"gs1:orderNote"},
-		"orderIdentification":	{"@id":"gs1:orderIdentification"},
-		"orderInstructionCode":	{"@id":"gs1:orderInstructionCode"},
-		"orderLineItem":	{"@id":"gs1:orderLineItem"},
-		"orderLogisticalDateInformation":	{"@id":"gs1:orderLogisticalDateInformation"},
-		"orderLogisticalInformation":	{"@id":"gs1:orderLogisticalInformation"},
-		"orderTypeCode":	{"@id":"gs1:orderTypeCode"},
-		"paymentTerms":	{"@id":"gs1:paymentTerms"},
-		"paymentTermsEventCode":	{"@id":"gs1:paymentTermsEventCode"},
-		"paymentTermsTypeCode":	{"@id":"gs1:paymentTermsTypeCode"},
-		"price":	{"@id":"gs1:price", "@type":"xsd:float"},
-		"proximoCutOffDay":	{"@id":"gs1:proximoCutOffDay"},
-		"quantity":	{"@id":"gs1:quantity","@type":"xsd:float"},
-		"quoteNumber":	{"@id":"gs1:quoteNumber"},
-		"requestedDeliveryDateTime":	{"@id":"gs1:requestedDeliveryDateTime","@type":"xsd:dateTime"},
-		"requestedQuantity":	{"@id":"gs1:requestedQuantity"},
-		"seller":	{"@id":"gs1:seller"},
-		"shipFrom":	{"@id":"gs1:shipFrom"},
-		"shipTo":	{"@id":"gs1:shipTo"},
-		"tradeAgreement":	{"@id":"gs1:tradeAgreement"},
-		"transactionalTradeItem":	{"@id":"gs1:transactionalTradeItem"},
-		"Authority": "sh:Authority"
+        "additionalOrderInstruction": {
+            "@id": "gs1:additionalOrderInstruction"
+        },
+        "additionalOrderLineInstruction": {
+            "@id": "gs1:additionalOrderLineInstruction"
+        },
+        "amount": {
+            "@id": "gs1:amount",
+            "@type": "xsd:float"
+        },
+        "buyer": {
+            "@id": "gs1:buyer"
+        },
+        "contentOwner": {
+            "@id": "gs1:contentOwner"
+        },
+        "creationDateTime": {
+            "@id": "gs1:creationDateTime",
+            "@type": "xsd:dateTimeStamp"
+        },
+        "documentStatusCode": {
+            "@id": "gs1:documentStatusCode"
+        },
+        "dutyFeeTaxAmount": {
+            "@id": "gs1:dutyFeeTaxAmount"
+        },
+        "dutyFeeTaxBasisAmount": {
+            "@id": "gs1:dutyFeeTaxBasisAmount"
+        },
+        "dutyFeeTaxPercentage": {
+            "@id": "gs1:dutyFeeTaxPercentage",
+            "@type": "xsd:float"
+        },
+        "dutyFeeTaxTypeCode": {
+            "@id": "gs1:dutyFeeTaxTypeCode"
+        },
+        "entityIdentification": {
+            "@id": "gs1:entityIdentification"
+        },
+        "gtin": {
+            "@id": "gs1:gtin"
+        },
+        "inventoryLocation": {
+            "@id": "gs1:inventoryLocation"
+        },
+        "isApplicationReceiptAcknowledgementRequired": {
+            "@id": "gs1:isApplicationReceiptAcknowledgementRequired",
+            "@type": "xsd:boolean"
+        },
+        "leviedDutyFeeTax": {
+            "@id": "gs1:leviedDutyFeeTax"
+        },
+        "lineItemActionCode": {
+            "@id": "gs1:lineItemActionCode"
+        },
+        "lineItemNumber": {
+            "@id": "gs1:lineItemNumber",
+            "@type": "xsd:integer"
+        },
+        "measurementUnitCode": {
+            "@id": "gs1:unitCode"
+        },
+        "netAmount": {
+            "@id": "gs1:netAmount"
+        },
+        "netPrice": {
+            "@id": "gs1:netPrice"
+        },
+        "note": {
+            "@id": "gs1:orderNote"
+        },
+        "orderIdentification": {
+            "@id": "gs1:orderIdentification"
+        },
+        "orderInstructionCode": {
+            "@id": "gs1:orderInstructionCode"
+        },
+        "orderLineItem": {
+            "@id": "gs1:orderLineItem"
+        },
+        "orderLogisticalDateInformation": {
+            "@id": "gs1:orderLogisticalDateInformation"
+        },
+        "orderLogisticalInformation": {
+            "@id": "gs1:orderLogisticalInformation"
+        },
+        "orderTypeCode": {
+            "@id": "gs1:orderTypeCode"
+        },
+        "paymentTerms": {
+            "@id": "gs1:paymentTerms"
+        },
+        "paymentTermsEventCode": {
+            "@id": "gs1:paymentTermsEventCode"
+        },
+        "paymentTermsTypeCode": {
+            "@id": "gs1:paymentTermsTypeCode"
+        },
+        "price": {
+            "@id": "gs1:price",
+            "@type": "xsd:float"
+        },
+        "proximoCutOffDay": {
+            "@id": "gs1:proximoCutOffDay"
+        },
+        "quantity": {
+            "@id": "gs1:quantity",
+            "@type": "xsd:float"
+        },
+        "quoteNumber": {
+            "@id": "gs1:quoteNumber"
+        },
+        "requestedDeliveryDateTime": {
+            "@id": "gs1:requestedDeliveryDateTime",
+            "@type": "xsd:dateTime"
+        },
+        "requestedQuantity": {
+            "@id": "gs1:requestedQuantity"
+        },
+        "seller": {
+            "@id": "gs1:seller"
+        },
+        "shipFrom": {
+            "@id": "gs1:shipFrom"
+        },
+        "shipTo": {
+            "@id": "gs1:shipTo"
+        },
+        "tradeAgreement": {
+            "@id": "gs1:tradeAgreement"
+        },
+        "transactionalTradeItem": {
+            "@id": "gs1:transactionalTradeItem"
+        },
+        "Authority": "sh:Authority"
+    }
 }
-
