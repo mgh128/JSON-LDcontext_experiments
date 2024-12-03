@@ -1,6 +1,7 @@
 {
     "@context": {
         "gs1": "https://ref.gs1.org/voc/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
         "type": "@type",
         "languageCode": "@language",
         "value": "@value",
