@@ -1,5 +1,5 @@
-{"@context" : {
-    "gs1" : "https://ref.gs1.org/voc/"
-
-}
+{
+    "@context": {
+        "gs1": "https://ref.gs1.org/voc/"
+    }
 }
