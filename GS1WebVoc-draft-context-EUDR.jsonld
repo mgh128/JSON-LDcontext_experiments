@@ -1,5 +1,6 @@
 {
     "@context": {
-        "gs1": "https://ref.gs1.org/voc/"
+        "gs1": "https://ref.gs1.org/voc/",
+        "RegulatoryNotification" : "gs1:RegulatoryNotification"
     }
 }
