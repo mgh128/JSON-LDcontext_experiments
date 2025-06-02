@@ -1,44 +1,46 @@
 {
-    "type": "@type",
-    "id": "@id",
-    "gs1": "https://ref.gs1.org/voc/",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "sender": "gs1:messageSender",
-    "recipient": "gs1:messageRecipient",
-    "partyGLN": "gs1:partyGLN",
-    "applicableProducts": "gs1:applicableProducts",
-    "gtin": "gs1:gtin",
-    "regulatoryInformation": {
-        "@id": "gs1:regulatoryInformation",
-        "@context": {
-            "availabilityStartDate": {
-                "@id": "gs1:regulatoryReferenceAvailabilityStartDate",
-                "@type": "xsd:date"
-            },
-            "availabilityEndDate": {
-                "@id": "gs1:regulatoryReferenceAvailabilityEndDate",
-                "@type": "xsd:date"
+    "@context": {
+        "type": "@type",
+        "id": "@id",
+        "gs1": "https://ref.gs1.org/voc/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "sender": "gs1:messageSender",
+        "recipient": "gs1:messageRecipient",
+        "partyGLN": "gs1:partyGLN",
+        "applicableProducts": "gs1:applicableProducts",
+        "gtin": "gs1:gtin",
+        "regulatoryInformation": {
+            "@id": "gs1:regulatoryInformation",
+            "@context": {
+                "availabilityStartDate": {
+                    "@id": "gs1:regulatoryReferenceAvailabilityStartDate",
+                    "@type": "xsd:date"
+                },
+                "availabilityEndDate": {
+                    "@id": "gs1:regulatoryReferenceAvailabilityEndDate",
+                    "@type": "xsd:date"
+                }
             }
-        }
-    },
-    "regulationTypeCode": {
-        "@id": "gs1:regulatoryTypeCode",
-        "@type": "@vocab",
-        "@context": {
-            "@protected": "true",
-            "DEFORESTATION_REGULATION": "gs1:RegulationTypeCode-DEFORESTATION_REGULATION"
-        }
-    },
-    "regulatoryAct": "gs1:regulatoryAct",
-    "regulatoryIdentifier": "gs1:regulatoryIdentifier",
-    "regulatoryInformationProvider": "gs1:regulatoryInformationProvider",
-    "referenceNumberEUDR": "gs1:regulatoryReferenceNumber",
-    "verificationNumberEUDR": "gs1:regulatoryVerificationNumber",
-    "regulatoryIdentifierType": {
-        "@id": "gs1:regulatoryIdentifierType",
-        "@type": "@vocab",
-        "@context": {
-            "DUE_DILIGENCE_STATEMENT": "gs1:RegulatoryIdentifierType-DUE_DILIGENCE_STATEMENT"
+        },
+        "regulationTypeCode": {
+            "@id": "gs1:regulatoryTypeCode",
+            "@type": "@vocab",
+            "@context": {
+                "@protected": "true",
+                "DEFORESTATION_REGULATION": "gs1:RegulationTypeCode-DEFORESTATION_REGULATION"
+            }
+        },
+        "regulatoryAct": "gs1:regulatoryAct",
+        "regulatoryIdentifier": "gs1:regulatoryIdentifier",
+        "regulatoryInformationProvider": "gs1:regulatoryInformationProvider",
+        "referenceNumberEUDR": "gs1:regulatoryReferenceNumber",
+        "verificationNumberEUDR": "gs1:regulatoryVerificationNumber",
+        "regulatoryIdentifierType": {
+            "@id": "gs1:regulatoryIdentifierType",
+            "@type": "@vocab",
+            "@context": {
+                "DUE_DILIGENCE_STATEMENT": "gs1:RegulatoryIdentifierType-DUE_DILIGENCE_STATEMENT"
+            }
         }
     }
 }
