@@ -7,7 +7,7 @@
         "messageSender": {"@id":"gs1:messageSender","@type":"@id"},
         "messageRecipient": {"@id":"gs1:messageRecipient","@type":"@id"},
         "partyGLN": "gs1:partyGLN",
-        "applicableProducts": "gs1:applicableProducts",
+        "applicableProducts": {"@id":"gs1:applicableProducts","@type":"@id"},
         "applicableTransactions": "gs1:applicableTransactions",
         "transactionID": "gs1:transactionID",
         "transactionType": {
