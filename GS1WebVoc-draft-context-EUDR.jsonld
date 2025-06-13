@@ -12,12 +12,12 @@
         "regulatoryInformation": {
             "@id": "gs1:regulatoryInformation",
             "@context": {
-                "availabilityStartDate": {
-                    "@id": "gs1:regulatoryReferenceAvailabilityStartDate",
+                "applicabilityStartDate": {
+                    "@id": "gs1:regulatoryReferenceApplicabilityStartDate",
                     "@type": "xsd:date"
                 },
-                "availabilityEndDate": {
-                    "@id": "gs1:regulatoryReferenceAvailabilityEndDate",
+                "applicabilityEndDate": {
+                    "@id": "gs1:regulatoryReferenceApplicabilityEndDate",
                     "@type": "xsd:date"
                 }
             }
