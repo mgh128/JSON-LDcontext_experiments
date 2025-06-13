@@ -8,8 +8,8 @@
         "messageRecipient": "gs1:messageRecipient",
         "partyGLN": "gs1:partyGLN",
         "applicableProducts": "gs1:applicableProducts",
-        "applicableTransactions":"gs1:applicableTransactions",
-        "transactionID":"gs1:transactionID",
+        "applicableTransactions": "gs1:applicableTransactions",
+        "transactionID": "gs1:transactionID",
         "transactionType": {
             "@id": "gs1:transactionType",
             "@type": "@vocab",
@@ -19,7 +19,7 @@
                 "BM": "gs1:TransactionType-BM",
                 "IV": "gs1:TransactionType-IV"
             }
-        }
+        },
         "gtin": "gs1:gtin",
         "hasBatchLotNumber": "gs1:hasBatchLotNumber",
         "hasSerialNumber": "gs1:hasSerialNumber",
@@ -49,8 +49,14 @@
         "regulatoryInformationProvider": "gs1:regulatoryInformationProvider",
         "referenceNumberEUDR": "gs1:regulatoryReferenceNumber",
         "verificationNumberEUDR": "gs1:regulatoryVerificationNumber",
-        "regulatoryReferenceApplicabilityStartDate": {"@id":"gs1:regulatoryReferenceApplicabilityStartDate", "@type":"xsd:date"},
-        "regulatoryReferenceApplicabilityEndDate": {"@id":"gs1:regulatoryReferenceApplicabilityStartDate", "@type":"xsd:date"}
+        "regulatoryReferenceApplicabilityStartDate": {
+            "@id": "gs1:regulatoryReferenceApplicabilityStartDate",
+            "@type": "xsd:date"
+        },
+        "regulatoryReferenceApplicabilityEndDate": {
+            "@id": "gs1:regulatoryReferenceApplicabilityStartDate",
+            "@type": "xsd:date"
+        },
         "regulatoryIdentifierType": {
             "@id": "gs1:regulatoryIdentifierType",
             "@type": "@vocab",
