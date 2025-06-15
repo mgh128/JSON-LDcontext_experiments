@@ -2,15 +2,28 @@
     "@context": {
         "type": "@type",
         "id": "@id",
+
         "gs1": "https://ref.gs1.org/voc/",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
+
         "messageSender": {"@id":"gs1:messageSender","@type":"@id"},
         "messageRecipient": {"@id":"gs1:messageRecipient","@type":"@id"},
-        "partyGLN": "gs1:partyGLN",
         "applicableProducts": {"@id":"gs1:applicableProducts","@type":"@id"},
+        "regulatoryInformationProvider": {"@id":"gs1:regulatoryInformationProvider","@type":"@id"},
+
+        "partyGLN": "gs1:partyGLN",
         "applicableTransactions": "gs1:applicableTransactions",
         "transactionID": "gs1:transactionID",
+        "regulatoryAct": "gs1:regulatoryAct",
+        "regulatoryIdentifier": "gs1:regulatoryIdentifier",
+        "referenceNumber": "gs1:regulatoryReferenceNumber",
+        "verificationNumber": "gs1:regulatoryVerificationNumber",
+        "gtin": "gs1:gtin",
+        "batchLotNumber": "gs1:hasBatchLotNumber",
+        "serialNumber": "gs1:hasSerialNumber",
+
         "transactionDate": {"@id":"gs1:transactionDate","@type":"xsd:date"},
+
         "transactionType": {
             "@id": "gs1:transactionType",
             "@type": "@vocab",
@@ -21,9 +34,7 @@
                 "IV": "gs1:TransactionType-IV"
             }
         },
-        "gtin": "gs1:gtin",
-        "batchLotNumber": "gs1:hasBatchLotNumber",
-        "serialNumber": "gs1:hasSerialNumber",
+        
         "regulatoryInformation": {
             "@id": "gs1:regulatoryInformation",
             "@context": {
@@ -37,6 +48,7 @@
                 }
             }
         },
+        
         "regulationType": {
             "@id": "gs1:regulationType",
             "@type": "@vocab",
@@ -45,19 +57,17 @@
                 "DEFORESTATION_REGULATION": "gs1:RegulationTypeCode-DEFORESTATION_REGULATION"
             }
         },
-        "regulatoryAct": "gs1:regulatoryAct",
-        "regulatoryIdentifier": "gs1:regulatoryIdentifier",
-        "regulatoryInformationProvider": {"@id":"gs1:regulatoryInformationProvider","@type":"@id"},
-        "referenceNumber": "gs1:regulatoryReferenceNumber",
-        "verificationNumber": "gs1:regulatoryVerificationNumber",
+        
         "regulatoryReferenceApplicabilityStartDate": {
             "@id": "gs1:regulatoryReferenceApplicabilityStartDate",
             "@type": "xsd:date"
         },
+        
         "regulatoryReferenceApplicabilityEndDate": {
             "@id": "gs1:regulatoryReferenceApplicabilityStartDate",
             "@type": "xsd:date"
         },
+        
         "regulatoryIdentifierType": {
             "@id": "gs1:regulatoryIdentifierType",
             "@type": "@vocab",
