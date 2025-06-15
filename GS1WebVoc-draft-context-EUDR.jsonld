@@ -38,7 +38,7 @@
             }
         },
         "regulationType": {
-            "@id": "gs1:regulatoryType",
+            "@id": "gs1:regulationType",
             "@type": "@vocab",
             "@context": {
                 "@protected": "true",
