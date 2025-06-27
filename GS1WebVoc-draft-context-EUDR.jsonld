@@ -6,6 +6,7 @@
         "gs1": "https://ref.gs1.org/voc/",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
 
+        "RegulatoryNotification" : {"@id":"gs1:RegulatoryNotification"},
         "messageSender": {"@id":"gs1:messageSender","@type":"@id"},
         "messageRecipient": {"@id":"gs1:messageRecipient","@type":"@id"},
         "applicableProducts": {"@id":"gs1:applicableProducts","@type":"@id"},
