@@ -1,0 +1,77 @@
+{
+    "@context": {
+        "type": "@type",
+        "id": "@id",
+
+        "gs1": "https://ref.gs1.org/voc/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+        "messageSender": {"@id":"gs1:messageSender","@type":"@id"},
+        "messageRecipient": {"@id":"gs1:messageRecipient","@type":"@id"},
+        "applicableProducts": {"@id":"gs1:applicableProducts","@type":"@id"},
+        "regulatoryInformationProvider": {"@id":"gs1:regulatoryInformationProvider","@type":"@id"},
+
+        "partyGLN": "gs1:partyGLN",
+        "applicableTransactions": "gs1:applicableTransactions",
+        "transactionID": "gs1:transactionID",
+        "regulatoryAct": "gs1:regulatoryAct",
+        "regulatoryIdentifier": "gs1:regulatoryIdentifier",
+        "regulatoryReferenceNumber": "gs1:regulatoryReferenceNumber",
+        "regulatoryVerificationNumber": "gs1:regulatoryVerificationNumber",
+        "gtin": "gs1:gtin",
+        "hasBatchLotNumber": "gs1:hasBatchLotNumber",
+        "hasSerialNumber": "gs1:hasSerialNumber",
+
+        "transactionDate": {"@id":"gs1:transactionDate","@type":"xsd:date"},
+
+        "transactionType": {
+            "@id": "gs1:transactionType",
+            "@type": "@vocab",
+            "@context": {
+                "@protected": true,
+                "AAK": "gs1:TransactionType-AAK",
+                "AID": "gs1:TransactionType-AID",
+                "ALO": "gs1:TransactionType-ALO",
+                "AXO": "gs1:TransactionType-AXO",
+                "AUJ": "gs1:TransactionType-AUJ",
+                "BM": "gs1:TransactionType-BM",
+                "BN": "gs1:TransactionType-BN",
+                "IV": "gs1:TransactionType-IV",
+                "MH": "gs1:TransactionType-MH",
+                "ON": "gs1:TransactionType-ON",
+                "VN": "gs1:TransactionType-VN"
+            }
+        },
+        
+        "regulatoryInformation": {
+            "@id": "gs1:regulatoryInformation",
+            "@context": {
+                "regulatoryReferenceApplicabilityStartDate": {
+                    "@id": "gs1:regulatoryReferenceApplicabilityStartDate",
+                    "@type": "xsd:date"
+                },
+                "regulatoryReferenceApplicabilityEndDate": {
+                    "@id": "gs1:regulatoryReferenceApplicabilityEndDate",
+                    "@type": "xsd:date"
+                }
+            }
+        },
+        
+        "regulationType": {
+            "@id": "gs1:regulationType",
+            "@type": "@vocab",
+            "@context": {
+                "@protected": true,
+                "DEFORESTATION_REGULATION": "gs1:RegulationTypeCode-DEFORESTATION_REGULATION"
+            }
+        },
+                
+        "regulatoryIdentifierType": {
+            "@id": "gs1:regulatoryIdentifierType",
+            "@type": "@vocab",
+            "@context": {
+                "DUE_DILIGENCE_STATEMENT": "gs1:RegulatoryIdentifierType-DUE_DILIGENCE_STATEMENT"
+            }
+        }
+    }
+}
