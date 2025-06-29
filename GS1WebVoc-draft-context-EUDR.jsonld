@@ -7,6 +7,12 @@
         "xsd": "http://www.w3.org/2001/XMLSchema#",
 
         "RegulatoryNotification" : {"@id":"gs1:RegulatoryNotification"},
+        "RegulatoryIdentification" : {"@id":"gs1:RegulatoryIdentification"},
+        "Transaction" : {"@id":"gs1:Transaction"},
+        "RegulatoryIdentifier" : {"@id":"gs1:RegulatoryIdentifier"},
+        "Product" : {"@id":"gs1:Product"},
+        "Organization" : {"@id":"gs1:Organization"},
+        
         "messageSender": {"@id":"gs1:messageSender","@type":"@id"},
         "messageRecipient": {"@id":"gs1:messageRecipient","@type":"@id"},
         "applicableProducts": {"@id":"gs1:applicableProducts","@type":"@id"},
@@ -29,10 +35,18 @@
             "@id": "gs1:transactionType",
             "@type": "@vocab",
             "@context": {
-                "@protected": "true",
+                "@protected": true,
                 "AAK": "gs1:TransactionType-AAK",
+                "AID": "gs1:TransactionType-AID",
+                "ALO": "gs1:TransactionType-ALO",
+                "AXO": "gs1:TransactionType-AXO",
+                "AUJ": "gs1:TransactionType-AUJ",
                 "BM": "gs1:TransactionType-BM",
-                "IV": "gs1:TransactionType-IV"
+                "BN": "gs1:TransactionType-BN",
+                "IV": "gs1:TransactionType-IV",
+                "MH": "gs1:TransactionType-MH",
+                "ON": "gs1:TransactionType-ON",
+                "VN": "gs1:TransactionType-VN"
             }
         },
         
@@ -54,7 +68,7 @@
             "@id": "gs1:regulationType",
             "@type": "@vocab",
             "@context": {
-                "@protected": "true",
+                "@protected": true,
                 "DEFORESTATION_REGULATION": "gs1:RegulationTypeCode-DEFORESTATION_REGULATION"
             }
         },
@@ -65,7 +79,7 @@
         },
         
         "regulatoryReferenceApplicabilityEndDate": {
-            "@id": "gs1:regulatoryReferenceApplicabilityStartDate",
+            "@id": "gs1:regulatoryReferenceApplicabilityEndDate",
             "@type": "xsd:date"
         },
         
