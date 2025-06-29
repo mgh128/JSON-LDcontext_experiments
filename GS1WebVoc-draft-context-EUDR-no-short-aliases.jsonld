@@ -7,6 +7,12 @@
         "xsd": "http://www.w3.org/2001/XMLSchema#",
 
         "RegulatoryNotification" : {"@id":"gs1:RegulatoryNotification"},
+        "RegulatoryIdentification" : {"@id":"gs1:RegulatoryIdentification"},
+        "Transaction" : {"@id":"gs1:Transaction"},
+        "RegulatoryIdentifier" : {"@id":"gs1:RegulatoryIdentifier"},
+        "Product" : {"@id":"gs1:Product"},
+        "Organization" : {"@id":"gs1:Organization"},
+
         "messageSender": {"@id":"gs1:messageSender","@type":"@id"},
         "messageRecipient": {"@id":"gs1:messageRecipient","@type":"@id"},
         "applicableProducts": {"@id":"gs1:applicableProducts","@type":"@id"},
