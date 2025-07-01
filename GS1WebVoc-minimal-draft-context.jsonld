@@ -6,17 +6,17 @@
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "masterDataAvailableFor": {
             "@id": "gs1:masterDataAvailableFor"
-        }
+        },
         "expirationDate": {
             "@id": "gs1:expirationDate",
-            "@type" : "xsd:date"
+            "@type": "xsd:date"
         },
         "locationRoleType": {
             "@id": "gs1:locationRoleType",
             "@type": "@vocab",
             "@context": {
                 "@protected": true,
-                "BACKROOM":"gs1:LocationRoleType-BACKROOM"                
+                "BACKROOM": "gs1:LocationRoleType-BACKROOM"
             }
         }
     }
