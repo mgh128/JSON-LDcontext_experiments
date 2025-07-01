@@ -3,8 +3,21 @@
         "@protected": true,
         "@version": 1.1,
         "gs1": "https://ref.gs1.org/voc/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
         "masterDataAvailableFor": {
             "@id": "gs1:masterDataAvailableFor"
+        }
+        "expirationDate": {
+            "@id": "gs1:expirationDate",
+            "@type" : "xsd:date"
+        },
+        "locationRoleType": {
+            "@id": "gs1:locationRoleType",
+            "@type": "@vocab",
+            "@context": {
+                "@protected": true,
+                "BACKROOM":"gs1:LocationRoleType-BACKROOM"                
+            }
         }
     }
 }
