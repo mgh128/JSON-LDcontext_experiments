@@ -10,6 +10,13 @@
     "exif": "http://www.w3.org/2003/12/exif/ns#",
     "fn": "http://www.w3.org/2005/xpath-functions#",
     "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": {
+      "@id": "gs1:geo",
+      "@type": "@vocab",
+      "@context": {
+        "@protected": true
+      }
+    },
     "geonames": "http://www.geonames.org/ontology#",
     "gr": "http://purl.org/goodrelations/v1#",
     "gs1": "https://ref.gs1.org/voc/",
@@ -1040,8 +1047,8 @@
         "CUSTOMER_SUPPORT_CONTACT": "gs1:ContactRoleType-CUSTOMER_SUPPORT_CONTACT",
         "DANGEROUS_GOODS_CONTACT": "gs1:ContactRoleType-DANGEROUS_GOODS_CONTACT",
         "DELIVERY_CONTACT": "gs1:ContactRoleType-DELIVERY_CONTACT",
-        "DEPARTMENT/EMPLOYEE_TO_EXECUTE_EXPORT_PROCEDURES": "gs1:ContactRoleType-DEPARTMENT/EMPLOYEE_TO_EXECUTE_EXPORT_PROCEDURES",
-        "DEPARTMENT/EMPLOYEE_TO_EXECUTE_IMPORT_PROCEDURES": "gs1:ContactRoleType-DEPARTMENT/EMPLOYEE_TO_EXECUTE_IMPORT_PROCEDURES",
+        "DEPARTMENT_OR_EMPLOYEE_TO_EXECUTE_EXPORT_PROCEDURES": "gs1:ContactRoleType-DEPARTMENT_OR_EMPLOYEE_TO_EXECUTE_EXPORT_PROCEDURES",
+        "DEPARTMENT_OR_EMPLOYEE_TO_EXECUTE_IMPORT_PROCEDURES": "gs1:ContactRoleType-DEPARTMENT_OR_EMPLOYEE_TO_EXECUTE_IMPORT_PROCEDURES",
         "DEPARTMENT_OR_PERSON_RESPONSIBLE_FOR_PROCESSING_PURCHASE_ORDER": "gs1:ContactRoleType-DEPARTMENT_OR_PERSON_RESPONSIBLE_FOR_PROCESSING_PURCHASE_ORDER",
         "DISTRIBUTOR": "gs1:ContactRoleType-DISTRIBUTOR",
         "EMERGENCY_DANGEROUS_GOODS_CONTACT": "gs1:ContactRoleType-EMERGENCY_DANGEROUS_GOODS_CONTACT",
