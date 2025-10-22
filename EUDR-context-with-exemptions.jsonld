@@ -56,8 +56,8 @@
             "@type": "@vocab",
             "@context": {
                 "@protected": true,
-                "PERMANENT": "gs1:ExemptionType-PERMANENT",
-                "TEMPORARY": "gs1:ExemptionType-TEMPORARY"
+                "PERMANENT_EXEMPTION": "gs1:ExemptionType-PERMANENT_EXEMPTION",
+                "TEMPORARY_EXEMPTION": "gs1:ExemptionType-TEMPORARY_EXEMPTION"
             }
         },
 
