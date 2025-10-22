@@ -1,0 +1,135 @@
+{
+    "@context": {
+        "type": "@type",
+        "id": "@id",
+
+        "gs1": "https://ref.gs1.org/voc/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+        "RegulatoryNotification" : {"@id":"gs1:RegulatoryNotification"},
+        "RegulatoryIdentification" : {"@id":"gs1:RegulatoryIdentification"},
+        "Transaction" : {"@id":"gs1:Transaction"},
+        "RegulatoryIdentifier" : {"@id":"gs1:RegulatoryIdentifier"},
+        "Product" : {"@id":"gs1:Product"},
+        "Organization" : {"@id":"gs1:Organization"},
+
+        "messageSender": {"@id":"gs1:messageSender","@type":"@id"},
+        "messageRecipient": {"@id":"gs1:messageRecipient","@type":"@id"},
+        "applicableProducts": {"@id":"gs1:applicableProducts","@type":"@id"},
+        "regulatoryInformationProvider": {"@id":"gs1:regulatoryInformationProvider","@type":"@id"},
+
+        "partyGLN": "gs1:partyGLN",
+        "applicableTransactions": "gs1:applicableTransactions",
+        "transactionID": "gs1:transactionID",
+        "regulatoryAct": "gs1:regulatoryAct",
+        "regulatoryIdentifier": "gs1:regulatoryIdentifier",
+        "regulatoryExemption": "gs1:regulatoryExemption",
+        "regulatoryReferenceNumber": "gs1:regulatoryReferenceNumber",
+        "regulatoryVerificationNumber": "gs1:regulatoryVerificationNumber",
+        "gtin": "gs1:gtin",
+        "hasBatchLotNumber": "gs1:hasBatchLotNumber",
+        "hasSerialNumber": "gs1:hasSerialNumber",
+
+        "transactionDate": {"@id":"gs1:transactionDate","@type":"xsd:date"},
+
+        "transactionType": {
+            "@id": "gs1:transactionType",
+            "@type": "@vocab",
+            "@context": {
+                "@protected": true,
+                "AAK": "gs1:TransactionType-AAK",
+                "AID": "gs1:TransactionType-AID",
+                "ALO": "gs1:TransactionType-ALO",
+                "AXO": "gs1:TransactionType-AXO",
+                "AUJ": "gs1:TransactionType-AUJ",
+                "BM": "gs1:TransactionType-BM",
+                "BN": "gs1:TransactionType-BN",
+                "IV": "gs1:TransactionType-IV",
+                "MH": "gs1:TransactionType-MH",
+                "ON": "gs1:TransactionType-ON",
+                "VN": "gs1:TransactionType-VN"
+            }
+        },
+
+        "exemptionType": {
+            "@id": "gs1:exemptionType",
+            "@type": "@vocab",
+            "@context": {
+                "@protected": true,
+                "PERMANENT": "gs1:ExemptionType-PERMANENT",
+                "TEMPORARY": "gs1:ExemptionType-TEMPORARY"
+            }
+        },
+
+        "exemptionReason": {
+            "@id": "gs1:exemptionReason",
+            "@type": "@vocab",
+            "@context": {
+                "@protected": true,
+                "TARIC_code_C717": "gs1:ExemptionReason-TARIC_code_C717",
+                "TARIC_code_Y129": "gs1:ExemptionReason-TARIC_code_Y129",
+                "TARIC_code_Y132": "gs1:ExemptionReason-TARIC_code_Y132",
+                "TARIC_code_Y133": "gs1:ExemptionReason-TARIC_code_Y133",
+                "TARIC_code_Y141": "gs1:ExemptionReason-TARIC_code_Y141",
+                "TARIC_code_Y142": "gs1:ExemptionReason-TARIC_code_Y142",
+                "EUDR_Annex_I_exemption_code_ex_0201": "gs1:ExemptionReason-EUDR_Annex_I_exemption_code_ex_0201",
+                "EUDR_Annex_I_exemption_code_ex_0202": "gs1:ExemptionReason-EUDR_Annex_I_exemption_code_ex_0201",
+                "EUDR_Annex_I_exemption_code_ex_ex_0206_10": "gs1:ExemptionReason-EUDR_Annex_I_exemption_code_ex_ex_0206_10",
+                "EUDR_Annex_I_exemption_code_ex_ex_0206_22": "gs1:ExemptionReason-EUDR_Annex_I_exemption_code_ex_ex_0206_22",
+                "EUDR_Annex_I_exemption_code_ex_ex_0206_29": "gs1:ExemptionReason-EUDR_Annex_I_exemption_code_ex_ex_0206_29",
+                "EUDR_Annex_I_exemption_code_ex_ex_1602_50": "gs1:ExemptionReason-EUDR_Annex_I_exemption_code_ex_ex_1602_50",
+                "EUDR_Annex_I_exemption_code_ex_ex_2905_45": "gs1:ExemptionReason-EUDR_Annex_I_exemption_code_ex_ex_2905_45",
+                "EUDR_Annex_I_exemption_code_ex_ex_4005": "gs1:ExemptionReason-EUDR_Annex_I_exemption_code_ex_ex_4005",
+                "EUDR_Annex_I_exemption_code_ex_ex_4006": "gs1:ExemptionReason-EUDR_Annex_I_exemption_code_ex_ex_4006",
+                "EUDR_Annex_I_exemption_code_ex_ex_4007": "gs1:ExemptionReason-EUDR_Annex_I_exemption_code_ex_ex_4007",
+                "EUDR_Annex_I_exemption_code_ex_ex_4008": "gs1:ExemptionReason-EUDR_Annex_I_exemption_code_ex_ex_4008",
+                "EUDR_Annex_I_exemption_code_ex_ex_4010": "gs1:ExemptionReason-EUDR_Annex_I_exemption_code_ex_ex_4010",
+                "EUDR_Annex_I_exemption_code_ex_ex_4011": "gs1:ExemptionReason-EUDR_Annex_I_exemption_code_ex_ex_4011",
+                "EUDR_Annex_I_exemption_code_ex_ex_4012": "gs1:ExemptionReason-EUDR_Annex_I_exemption_code_ex_ex_4012",
+                "EUDR_Annex_I_exemption_code_ex_ex_4013": "gs1:ExemptionReason-EUDR_Annex_I_exemption_code_ex_ex_4013",
+                "EUDR_Annex_I_exemption_code_ex_ex_4015": "gs1:ExemptionReason-EUDR_Annex_I_exemption_code_ex_ex_4015",
+                "EUDR_Annex_I_exemption_code_ex_ex_4016": "gs1:ExemptionReason-EUDR_Annex_I_exemption_code_ex_ex_4016",
+                "EUDR_Annex_I_exemption_code_ex_ex_4017": "gs1:ExemptionReason-EUDR_Annex_I_exemption_code_ex_ex_4017",
+                "EUDR_Annex_I_exemption_code_ex_ex_4101": "gs1:ExemptionReason-EUDR_Annex_I_exemption_code_ex_ex_4101",
+                "EUDR_Annex_I_exemption_code_ex_ex_4104": "gs1:ExemptionReason-EUDR_Annex_I_exemption_code_ex_ex_4104",
+                "EUDR_Annex_I_exemption_code_ex_ex_4107": "gs1:ExemptionReason-EUDR_Annex_I_exemption_code_ex_ex_4107",
+                "EUDR_Annex_I_exemption_code_ex_ex_49": "gs1:ExemptionReason-EUDR_Annex_I_exemption_code_ex_ex_49",
+                "EUDR_Annex_I_exemption_code_ex_ex_9401": "gs1:ExemptionReason-EUDR_Annex_I_exemption_code_ex_ex_9401",
+                "EUDR_Annex_I_exemption_code_ex_ex_Chapters_47_and_48": "gs1:ExemptionReason-EUDR_Annex_I_exemption_code_ex_ex_Chapters_47_and_48"
+            }
+        },
+
+
+        
+        "regulatoryInformation": {
+            "@id": "gs1:regulatoryInformation",
+            "@context": {
+                "regulatoryReferenceApplicabilityStartDate": {
+                    "@id": "gs1:regulatoryReferenceApplicabilityStartDate",
+                    "@type": "xsd:date"
+                },
+                "regulatoryReferenceApplicabilityEndDate": {
+                    "@id": "gs1:regulatoryReferenceApplicabilityEndDate",
+                    "@type": "xsd:date"
+                }
+            }
+        },
+        
+        "regulationType": {
+            "@id": "gs1:regulationType",
+            "@type": "@vocab",
+            "@context": {
+                "@protected": true,
+                "DEFORESTATION_REGULATION": "gs1:RegulationTypeCode-DEFORESTATION_REGULATION"
+            }
+        },
+                
+        "regulatoryIdentifierType": {
+            "@id": "gs1:regulatoryIdentifierType",
+            "@type": "@vocab",
+            "@context": {
+                "DUE_DILIGENCE_STATEMENT": "gs1:RegulatoryIdentifierType-DUE_DILIGENCE_STATEMENT"
+            }
+        }
+    }
+}
