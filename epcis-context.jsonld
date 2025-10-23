@@ -428,8 +428,13 @@
                 "VolumeFlowRate": "gs1:VolumeFlowRate",
                 "VolumeFraction": "gs1:VolumeFraction",
                 "VolumetricFlux": "gs1:VolumetricFlux",
-                "Wavenumber": "gs1:Wavenumber"
+                "Wavenumber": "gs1:Wavenumber",
+
               },
+				"value": {
+				  "@id": "epcis:value",
+				  "@type": "xsd:double"
+				},
               "@id": "epcis:measurementType",
               "@type": "@vocab"
             },
@@ -456,10 +461,6 @@
             "time": {
               "@id": "epcis:time",
               "@type": "xsd:dateTimeStamp"
-            },
-            "value": {
-              "@id": "epcis:value",
-              "@type": "xsd:double"
             },
             "component": {
               "@context": {
