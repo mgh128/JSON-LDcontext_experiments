@@ -40,6 +40,172 @@
     "wot": "http://xmlns.com/wot/0.1/",
     "xhtml": "http://www.w3.org/1999/xhtml#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "Offer": {
+      "@id": "gs1:Offer"
+    },
+    "Place": {
+      "@id": "gs1:Place"
+    },
+    "Organization": {
+      "@id": "gs1:Organization"
+    },
+    "Product": {
+      "@id": "gs1:Product"
+    },
+    "AdditionalProductClassificationDetails": {
+      "@id": "gs1:AdditionalProductClassificationDetails"
+    },
+    "AdditiveDetails": {
+      "@id": "gs1:AdditiveDetails"
+    },
+    "PostalAddress": {
+      "@id": "gs1:PostalAddress"
+    },
+    "Beverage": {
+      "@id": "gs1:Beverage"
+    },
+    "AllergenDetails": {
+      "@id": "gs1:AllergenDetails"
+    },
+    "FoodBeverageTobaccoProduct": {
+      "@id": "gs1:FoodBeverageTobaccoProduct"
+    },
+    "MeatPoultry": {
+      "@id": "gs1:MeatPoultry"
+    },
+    "RegulatoryIdentifier": {
+      "@id": "gs1:RegulatoryIdentifier"
+    },
+    "linkType": {
+      "@id": "gs1:linkType",
+      "@type": "@id"
+    },
+    "RegulatoryInformation": {
+      "@id": "gs1:RegulatoryInformation"
+    },
+    "AuthenticityDetails": {
+      "@id": "gs1:AuthenticityDetails"
+    },
+    "ContactPoint": {
+      "@id": "gs1:ContactPoint"
+    },
+    "AwardPrizeDetails": {
+      "@id": "gs1:AwardPrizeDetails"
+    },
+    "Brand": {
+      "@id": "gs1:Brand"
+    },
+    "Seafood": {
+      "@id": "gs1:Seafood"
+    },
+    "CertificationDetails": {
+      "@id": "gs1:CertificationDetails"
+    },
+    "MilkButterCreamYogurtCheeseEggsSubstitutes": {
+      "@id": "gs1:MilkButterCreamYogurtCheeseEggsSubstitutes"
+    },
+    "GeoShape": {
+      "@id": "gs1:GeoShape"
+    },
+    "Clothing": {
+      "@id": "gs1:Clothing"
+    },
+    "ColourCodeDetails": {
+      "@id": "gs1:ColourCodeDetails"
+    },
+    "CompulsoryAdditionalInformation": {
+      "@id": "gs1:CompulsoryAdditionalInformation"
+    },
+    "TargetMarketDetails": {
+      "@id": "gs1:TargetMarketDetails"
+    },
+    "WearableProduct": {
+      "@id": "gs1:WearableProduct"
+    },
+    "FoodAndBeveragePreparationInformation": {
+      "@id": "gs1:FoodAndBeveragePreparationInformation"
+    },
+    "GeoCoordinates": {
+      "@id": "gs1:GeoCoordinates"
+    },
+    "Country": {
+      "@id": "gs1:Country"
+    },
+    "NutritionMeasurementType": {
+      "@id": "gs1:NutritionMeasurementType"
+    },
+    "DietTypeCodeDetails": {
+      "@id": "gs1:DietTypeCodeDetails"
+    },
+    "Discount": {
+      "@id": "gs1:Discount"
+    },
+    "WarrantyPromise": {
+      "@id": "gs1:WarrantyPromise"
+    },
+    "PriceSpecification": {
+      "@id": "gs1:PriceSpecification"
+    },
+    "ReferencedFileDetails": {
+      "@id": "gs1:ReferencedFileDetails"
+    },
+    "Footwear": {
+      "@id": "gs1:Footwear"
+    },
+    "PackagingDetails": {
+      "@id": "gs1:PackagingDetails"
+    },
+    "FoodBeverageTobaccoIngredientDetails": {
+      "@id": "gs1:FoodBeverageTobaccoIngredientDetails"
+    },
+    "FruitsVegetables": {
+      "@id": "gs1:FruitsVegetables"
+    },
+    "LocationID_Details": {
+      "@id": "gs1:LocationID_Details"
+    },
+    "LocationStatusHistory": {
+      "@id": "gs1:LocationStatusHistory"
+    },
+    "Message": {
+      "@id": "gs1:Message"
+    },
+    "OrganicClaimDetails": {
+      "@id": "gs1:OrganicClaimDetails"
+    },
+    "OrganizationID_Details": {
+      "@id": "gs1:OrganizationID_Details"
+    },
+    "OrganizationStatusHistory": {
+      "@id": "gs1:OrganizationStatusHistory"
+    },
+    "TypeCode": {
+      "@id": "gs1:TypeCode"
+    },
+    "PackagingMaterialDetails": {
+      "@id": "gs1:PackagingMaterialDetails"
+    },
+    "ProductYieldDetails": {
+      "@id": "gs1:ProductYieldDetails"
+    },
+    "ReturnablePackageDepositDetails": {
+      "@id": "gs1:ReturnablePackageDepositDetails"
+    },
+    "SizeCodeDetails": {
+      "@id": "gs1:SizeCodeDetails"
+    },
+    "SizeDetails": {
+      "@id": "gs1:SizeDetails"
+    },
+    "TextileMaterialDetails": {
+      "@id": "gs1:TextileMaterialDetails"
+    },
+    "Transaction": {
+      "@id": "gs1:Transaction"
+    },
+    "QuantitativeValue": {
+      "@id": "gs1:QuantitativeValue"
+    },
     "acceptedPaymentMethod": {
       "@id": "gs1:acceptedPaymentMethod",
       "@type": "@vocab",
@@ -1941,10 +2107,6 @@
     },
     "line": {
       "@id": "gs1:line"
-    },
-    "linkType": {
-      "@id": "gs1:linkType",
-      "@type": "@id"
     },
     "location": {
       "@id": "gs1:location",
