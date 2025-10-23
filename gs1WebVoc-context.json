@@ -1,5 +1,10 @@
 {
-  "@context": 
+  "@context": [
+    {
+    "epcis": {
+      "@id": "gs1:epcis",
+      "@type": "@id"
+    },
     {
     "@protected": true,
     "@version": 1.1,
@@ -1421,10 +1426,6 @@
     },
     "energyPerNutrientBasis": {
       "@id": "gs1:energyPerNutrientBasis",
-      "@type": "@id"
-    },
-    "epcis": {
-      "@id": "gs1:epcis",
       "@type": "@id"
     },
     "epil": {
@@ -4489,4 +4490,5 @@
       "@type": "@id"
     }
   }
+  ]
 }
