@@ -1,0 +1,1675 @@
+{
+  "@context": [
+    "https://mgh128.github.io/JSON-LDcontext_experiments/GS1-WebVoc-context-improved.jsonld",
+    {
+      "@protected": true,
+      "@version": 1.1,
+      "ObjectEvent": {
+        "@id": "epcis:ObjectEvent",
+        "@prefix": false,
+        "@protected": true
+      },
+      "AggregationEvent": {
+        "@id": "epcis:AggregationEvent",
+        "@prefix": false,
+        "@protected": true
+      },
+      "TransformationEvent": {
+        "@id": "epcis:TransformationEvent",
+        "@prefix": false,
+        "@protected": true
+      },
+      "AssociationEvent": {
+        "@id": "epcis:AssociationEvent",
+        "@prefix": false,
+        "@protected": true
+      },
+      "TransactionEvent": {
+        "@id": "epcis:TransactionEvent",
+        "@prefix": false,
+        "@protected": true
+      },
+      "Collection": {
+        "@id": "epcis:Collection",
+        "@prefix": false,
+        "@protected": true
+      },
+      "member": {
+        "@id": "rdfs:member",
+        "@type": "@id",
+        "@container": "@set",
+        "@prefix": false,
+        "@protected": true
+      },
+      "eventTime": {
+        "@id": "epcis:eventTime",
+        "@type": "xsd:dateTimeStamp",
+        "@prefix": false,
+        "@protected": true
+      },
+      "recordTime": {
+        "@id": "epcis:recordTime",
+        "@type": "xsd:dateTimeStamp",
+        "@prefix": false,
+        "@protected": true
+      },
+      "eventTimeZoneOffset": {
+        "@id": "epcis:eventTimeZoneOffset",
+        "@prefix": false,
+        "@protected": true
+      },
+      "action": {
+        "@id": "epcis:action",
+        "@prefix": false,
+        "@protected": true
+      },
+      "bizStep": {
+        "@context": {
+          "accepting": {
+            "@id": "cbv:BizStep-accepting",
+            "@prefix": false,
+            "@protected": true
+          },
+          "arriving": {
+            "@id": "cbv:BizStep-arriving",
+            "@prefix": false,
+            "@protected": true
+          },
+          "assembling": {
+            "@id": "cbv:BizStep-assembling",
+            "@prefix": false,
+            "@protected": true
+          },
+          "collecting": {
+            "@id": "cbv:BizStep-collecting",
+            "@prefix": false,
+            "@protected": true
+          },
+          "commissioning": {
+            "@id": "cbv:BizStep-commissioning",
+            "@prefix": false,
+            "@protected": true
+          },
+          "consigning": {
+            "@id": "cbv:BizStep-consigning",
+            "@prefix": false,
+            "@protected": true
+          },
+          "creating_class_instance": {
+            "@id": "cbv:BizStep-creating_class_instance",
+            "@prefix": false,
+            "@protected": true
+          },
+          "cycle_counting": {
+            "@id": "cbv:BizStep-cycle_counting",
+            "@prefix": false,
+            "@protected": true
+          },
+          "decommissioning": {
+            "@id": "cbv:BizStep-decommissioning",
+            "@prefix": false,
+            "@protected": true
+          },
+          "departing": {
+            "@id": "cbv:BizStep-departing",
+            "@prefix": false,
+            "@protected": true
+          },
+          "destroying": {
+            "@id": "cbv:BizStep-destroying",
+            "@prefix": false,
+            "@protected": true
+          },
+          "disassembling": {
+            "@id": "cbv:BizStep-disassembling",
+            "@prefix": false,
+            "@protected": true
+          },
+          "dispensing": {
+            "@id": "cbv:BizStep-dispensing",
+            "@prefix": false,
+            "@protected": true
+          },
+          "encoding": {
+            "@id": "cbv:BizStep-encoding",
+            "@prefix": false,
+            "@protected": true
+          },
+          "entering_exiting": {
+            "@id": "cbv:BizStep-entering_exiting",
+            "@prefix": false,
+            "@protected": true
+          },
+          "holding": {
+            "@id": "cbv:BizStep-holding",
+            "@prefix": false,
+            "@protected": true
+          },
+          "inspecting": {
+            "@id": "cbv:BizStep-inspecting",
+            "@prefix": false,
+            "@protected": true
+          },
+          "installing": {
+            "@id": "cbv:BizStep-installing",
+            "@prefix": false,
+            "@protected": true
+          },
+          "killing": {
+            "@id": "cbv:BizStep-killing",
+            "@prefix": false,
+            "@protected": true
+          },
+          "loading": {
+            "@id": "cbv:BizStep-loading",
+            "@prefix": false,
+            "@protected": true
+          },
+          "other": {
+            "@id": "cbv:BizStep-other",
+            "@prefix": false,
+            "@protected": true
+          },
+          "packing": {
+            "@id": "cbv:BizStep-packing",
+            "@prefix": false,
+            "@protected": true
+          },
+          "picking": {
+            "@id": "cbv:BizStep-picking",
+            "@prefix": false,
+            "@protected": true
+          },
+          "receiving": {
+            "@id": "cbv:BizStep-receiving",
+            "@prefix": false,
+            "@protected": true
+          },
+          "removing": {
+            "@id": "cbv:BizStep-removing",
+            "@prefix": false,
+            "@protected": true
+          },
+          "repackaging": {
+            "@id": "cbv:BizStep-repackaging",
+            "@prefix": false,
+            "@protected": true
+          },
+          "repairing": {
+            "@id": "cbv:BizStep-repairing",
+            "@prefix": false,
+            "@protected": true
+          },
+          "replacing": {
+            "@id": "cbv:BizStep-replacing",
+            "@prefix": false,
+            "@protected": true
+          },
+          "reserving": {
+            "@id": "cbv:BizStep-reserving",
+            "@prefix": false,
+            "@protected": true
+          },
+          "retail_selling": {
+            "@id": "cbv:BizStep-retail_selling",
+            "@prefix": false,
+            "@protected": true
+          },
+          "sampling": {
+            "@id": "cbv:BizStep-sampling",
+            "@prefix": false,
+            "@protected": true
+          },
+          "sensor_reporting": {
+            "@id": "cbv:BizStep-sensor_reporting",
+            "@prefix": false,
+            "@protected": true
+          },
+          "shipping": {
+            "@id": "cbv:BizStep-shipping",
+            "@prefix": false,
+            "@protected": true
+          },
+          "staging_outbound": {
+            "@id": "cbv:BizStep-staging_outbound",
+            "@prefix": false,
+            "@protected": true
+          },
+          "stock_taking": {
+            "@id": "cbv:BizStep-stock_taking",
+            "@prefix": false,
+            "@protected": true
+          },
+          "stocking": {
+            "@id": "cbv:BizStep-stocking",
+            "@prefix": false,
+            "@protected": true
+          },
+          "storing": {
+            "@id": "cbv:BizStep-storing",
+            "@prefix": false,
+            "@protected": true
+          },
+          "transporting": {
+            "@id": "cbv:BizStep-transporting",
+            "@prefix": false,
+            "@protected": true
+          },
+          "unloading": {
+            "@id": "cbv:BizStep-unloading",
+            "@prefix": false,
+            "@protected": true
+          },
+          "unpacking": {
+            "@id": "cbv:BizStep-unpacking",
+            "@prefix": false,
+            "@protected": true
+          },
+          "void_shipping": {
+            "@id": "cbv:BizStep-void_shipping",
+            "@prefix": false,
+            "@protected": true
+          }
+        },
+        "@id": "epcis:bizStep",
+        "@type": "@vocab",
+        "@prefix": false,
+        "@protected": true
+      },
+      "disposition": {
+        "@context": {
+          "active": {
+            "@id": "cbv:Disp-active",
+            "@prefix": false,
+            "@protected": true
+          },
+          "available": {
+            "@id": "cbv:Disp-available",
+            "@prefix": false,
+            "@protected": true
+          },
+          "completeness_verified": {
+            "@id": "cbv:Disp-completeness_verified",
+            "@prefix": false,
+            "@protected": true
+          },
+          "completeness_inferred": {
+            "@id": "cbv:Disp-completeness_inferred",
+            "@prefix": false,
+            "@protected": true
+          },
+          "conformant": {
+            "@id": "cbv:Disp-conformant",
+            "@prefix": false,
+            "@protected": true
+          },
+          "container_closed": {
+            "@id": "cbv:Disp-container_closed",
+            "@prefix": false,
+            "@protected": true
+          },
+          "container_open": {
+            "@id": "cbv:Disp-container_open",
+            "@prefix": false,
+            "@protected": true
+          },
+          "damaged": {
+            "@id": "cbv:Disp-damaged",
+            "@prefix": false,
+            "@protected": true
+          },
+          "destroyed": {
+            "@id": "cbv:Disp-destroyed",
+            "@prefix": false,
+            "@protected": true
+          },
+          "dispensed": {
+            "@id": "cbv:Disp-dispensed",
+            "@prefix": false,
+            "@protected": true
+          },
+          "disposed": {
+            "@id": "cbv:Disp-disposed",
+            "@prefix": false,
+            "@protected": true
+          },
+          "encoded": {
+            "@id": "cbv:Disp-encoded",
+            "@prefix": false,
+            "@protected": true
+          },
+          "expired": {
+            "@id": "cbv:Disp-expired",
+            "@prefix": false,
+            "@protected": true
+          },
+          "in_progress": {
+            "@id": "cbv:Disp-in_progress",
+            "@prefix": false,
+            "@protected": true
+          },
+          "in_transit": {
+            "@id": "cbv:Disp-in_transit",
+            "@prefix": false,
+            "@protected": true
+          },
+          "inactive": {
+            "@id": "cbv:Disp-inactive",
+            "@prefix": false,
+            "@protected": true
+          },
+          "mismatch_instance": {
+            "@id": "cbv:Disp-mismatch_instance",
+            "@prefix": false,
+            "@protected": true
+          },
+          "mismatch_class": {
+            "@id": "cbv:Disp-mismatch_class",
+            "@prefix": false,
+            "@protected": true
+          },
+          "mismatch_quantity": {
+            "@id": "cbv:Disp-mismatch_quantity",
+            "@prefix": false,
+            "@protected": true
+          },
+          "needs_replacement": {
+            "@id": "cbv:Disp-needs_replacement",
+            "@prefix": false,
+            "@protected": true
+          },
+          "no_pedigree_match": {
+            "@id": "cbv:Disp-no_pedigree_match",
+            "@prefix": false,
+            "@protected": true
+          },
+          "non_conformant": {
+            "@id": "cbv:Disp-non_conformant",
+            "@prefix": false,
+            "@protected": true
+          },
+          "non_sellable_other": {
+            "@id": "cbv:Disp-non_sellable_other",
+            "@prefix": false,
+            "@protected": true
+          },
+          "partially_dispensed": {
+            "@id": "cbv:Disp-partially_dispensed",
+            "@prefix": false,
+            "@protected": true
+          },
+          "recalled": {
+            "@id": "cbv:Disp-recalled",
+            "@prefix": false,
+            "@protected": true
+          },
+          "reserved": {
+            "@id": "cbv:Disp-reserved",
+            "@prefix": false,
+            "@protected": true
+          },
+          "retail_sold": {
+            "@id": "cbv:Disp-retail_sold",
+            "@prefix": false,
+            "@protected": true
+          },
+          "returned": {
+            "@id": "cbv:Disp-returned",
+            "@prefix": false,
+            "@protected": true
+          },
+          "sellable_accessible": {
+            "@id": "cbv:Disp-sellable_accessible",
+            "@prefix": false,
+            "@protected": true
+          },
+          "sellable_not_accessible": {
+            "@id": "cbv:Disp-sellable_not_accessible",
+            "@prefix": false,
+            "@protected": true
+          },
+          "stolen": {
+            "@id": "cbv:Disp-stolen",
+            "@prefix": false,
+            "@protected": true
+          },
+          "unavailable": {
+            "@id": "cbv:Disp-unavailable",
+            "@prefix": false,
+            "@protected": true
+          },
+          "unknown": {
+            "@id": "cbv:Disp-unknown",
+            "@prefix": false,
+            "@protected": true
+          }
+        },
+        "@id": "epcis:disposition",
+        "@type": "@vocab",
+        "@prefix": false,
+        "@protected": true
+      },
+      "bizLocation": {
+        "@id": "epcis:bizLocation",
+        "@type": "@id",
+        "@prefix": false,
+        "@protected": true
+      },
+      "readPoint": {
+        "@id": "epcis:readPoint",
+        "@type": "@id",
+        "@prefix": false,
+        "@protected": true
+      },
+      "transformationID": {
+        "@id": "epcis:transformationID",
+        "@type": "@id",
+        "@prefix": false,
+        "@protected": true
+      },
+      "epcList": {
+        "@id": "epcis:epcList",
+        "@type": "@id",
+        "@container": "@set",
+        "@prefix": false,
+        "@protected": true
+      },
+      "sourceList": {
+        "@id": "epcis:sourceList",
+        "@container": "@set",
+        "@context": {
+          "@protected": true,
+          "source": {
+            "@id": "epcis:sourceOrDestination",
+            "@type": "@id",
+            "@prefix": false,
+            "@protected": true
+          },
+          "type": {
+            "@id": "epcis:sourceOrDestinationType",
+            "@type": "@vocab",
+            "@context": {
+              "owning_party": {
+                "@id": "cbv:SDT-owning_party",
+                "@prefix": false,
+                "@protected": true
+              },
+              "possessing_party": {
+                "@id": "cbv:SDT-possessing_party",
+                "@prefix": false,
+                "@protected": true
+              },
+              "location": {
+                "@id": "cbv:SDT-location",
+                "@prefix": false,
+                "@protected": true
+              }
+            },
+            "@prefix": false,
+            "@protected": true
+          },
+          "@propagate": false
+        },
+        "@prefix": false,
+        "@protected": true
+      },
+      "destinationList": {
+        "@id": "epcis:destinationList",
+        "@container": "@set",
+        "@context": {
+          "@protected": true,
+          "destination": {
+            "@id": "epcis:sourceOrDestination",
+            "@type": "@id",
+            "@prefix": false,
+            "@protected": true
+          },
+          "type": {
+            "@id": "epcis:sourceOrDestinationType",
+            "@type": "@vocab",
+            "@context": {
+              "owning_party": {
+                "@id": "cbv:SDT-owning_party",
+                "@prefix": false,
+                "@protected": true
+              },
+              "possessing_party": {
+                "@id": "cbv:SDT-possessing_party",
+                "@prefix": false,
+                "@protected": true
+              },
+              "location": {
+                "@id": "cbv:SDT-location",
+                "@prefix": false,
+                "@protected": true
+              }
+            },
+            "@prefix": false,
+            "@protected": true
+          },
+          "@propagate": false
+        },
+        "@prefix": false,
+        "@protected": true
+      },
+      "persistentDisposition": {
+        "@id": "epcis:persistentDisposition",
+        "@container": "@set",
+        "@context": [
+          {
+            "active": {
+              "@id": "cbv:Disp-active",
+              "@prefix": false,
+              "@protected": true
+            },
+            "available": {
+              "@id": "cbv:Disp-available",
+              "@prefix": false,
+              "@protected": true
+            },
+            "completeness_verified": {
+              "@id": "cbv:Disp-completeness_verified",
+              "@prefix": false,
+              "@protected": true
+            },
+            "completeness_inferred": {
+              "@id": "cbv:Disp-completeness_inferred",
+              "@prefix": false,
+              "@protected": true
+            },
+            "conformant": {
+              "@id": "cbv:Disp-conformant",
+              "@prefix": false,
+              "@protected": true
+            },
+            "container_closed": {
+              "@id": "cbv:Disp-container_closed",
+              "@prefix": false,
+              "@protected": true
+            },
+            "container_open": {
+              "@id": "cbv:Disp-container_open",
+              "@prefix": false,
+              "@protected": true
+            },
+            "damaged": {
+              "@id": "cbv:Disp-damaged",
+              "@prefix": false,
+              "@protected": true
+            },
+            "destroyed": {
+              "@id": "cbv:Disp-destroyed",
+              "@prefix": false,
+              "@protected": true
+            },
+            "dispensed": {
+              "@id": "cbv:Disp-dispensed",
+              "@prefix": false,
+              "@protected": true
+            },
+            "disposed": {
+              "@id": "cbv:Disp-disposed",
+              "@prefix": false,
+              "@protected": true
+            },
+            "encoded": {
+              "@id": "cbv:Disp-encoded",
+              "@prefix": false,
+              "@protected": true
+            },
+            "expired": {
+              "@id": "cbv:Disp-expired",
+              "@prefix": false,
+              "@protected": true
+            },
+            "in_progress": {
+              "@id": "cbv:Disp-in_progress",
+              "@prefix": false,
+              "@protected": true
+            },
+            "in_transit": {
+              "@id": "cbv:Disp-in_transit",
+              "@prefix": false,
+              "@protected": true
+            },
+            "inactive": {
+              "@id": "cbv:Disp-inactive",
+              "@prefix": false,
+              "@protected": true
+            },
+            "mismatch_instance": {
+              "@id": "cbv:Disp-mismatch_instance",
+              "@prefix": false,
+              "@protected": true
+            },
+            "mismatch_class": {
+              "@id": "cbv:Disp-mismatch_class",
+              "@prefix": false,
+              "@protected": true
+            },
+            "mismatch_quantity": {
+              "@id": "cbv:Disp-mismatch_quantity",
+              "@prefix": false,
+              "@protected": true
+            },
+            "needs_replacement": {
+              "@id": "cbv:Disp-needs_replacement",
+              "@prefix": false,
+              "@protected": true
+            },
+            "no_pedigree_match": {
+              "@id": "cbv:Disp-no_pedigree_match",
+              "@prefix": false,
+              "@protected": true
+            },
+            "non_conformant": {
+              "@id": "cbv:Disp-non_conformant",
+              "@prefix": false,
+              "@protected": true
+            },
+            "non_sellable_other": {
+              "@id": "cbv:Disp-non_sellable_other",
+              "@prefix": false,
+              "@protected": true
+            },
+            "partially_dispensed": {
+              "@id": "cbv:Disp-partially_dispensed",
+              "@prefix": false,
+              "@protected": true
+            },
+            "recalled": {
+              "@id": "cbv:Disp-recalled",
+              "@prefix": false,
+              "@protected": true
+            },
+            "reserved": {
+              "@id": "cbv:Disp-reserved",
+              "@prefix": false,
+              "@protected": true
+            },
+            "retail_sold": {
+              "@id": "cbv:Disp-retail_sold",
+              "@prefix": false,
+              "@protected": true
+            },
+            "returned": {
+              "@id": "cbv:Disp-returned",
+              "@prefix": false,
+              "@protected": true
+            },
+            "sellable_accessible": {
+              "@id": "cbv:Disp-sellable_accessible",
+              "@prefix": false,
+              "@protected": true
+            },
+            "sellable_not_accessible": {
+              "@id": "cbv:Disp-sellable_not_accessible",
+              "@prefix": false,
+              "@protected": true
+            },
+            "stolen": {
+              "@id": "cbv:Disp-stolen",
+              "@prefix": false,
+              "@protected": true
+            },
+            "unavailable": {
+              "@id": "cbv:Disp-unavailable",
+              "@prefix": false,
+              "@protected": true
+            },
+            "unknown": {
+              "@id": "cbv:Disp-unknown",
+              "@prefix": false,
+              "@protected": true
+            }
+          },
+          {
+            "@protected": true,
+            "set": {
+              "@id": "epcis:set",
+              "@type": "@vocab",
+              "@container": "@set",
+              "@prefix": false,
+              "@protected": true
+            },
+            "unset": {
+              "@id": "epcis:unset",
+              "@type": "@vocab",
+              "@container": "@set",
+              "@prefix": false,
+              "@protected": true
+            },
+            "@propagate": false
+          }
+        ],
+        "@prefix": false,
+        "@protected": true
+      },
+      "quantity": {
+        "@id": "epcis:quantity",
+        "@type": "xsd:decimal",
+        "@prefix": false,
+        "@protected": true
+      },
+      "epcClass": {
+        "@id": "epcis:epcClass",
+        "@type": "@id",
+        "@prefix": false,
+        "@protected": true
+      },
+      "uom": {
+        "@id": "epcis:uom",
+        "@prefix": false,
+        "@protected": true
+      },
+      "quantityList": {
+        "@id": "epcis:quantityList",
+        "@container": "@set",
+        "@prefix": false,
+        "@protected": true
+      },
+      "bizTransactionList": {
+        "@id": "epcis:bizTransactionList",
+        "@container": "@set",
+        "@context": {
+          "@protected": true,
+          "bizTransaction": {
+            "@id": "@id",
+            "@prefix": false,
+            "@protected": true
+          },
+          "type": {
+            "@id": "epcis:bizTransactionType",
+            "@type": "@vocab",
+            "@context": {
+              "bol": {
+                "@id": "cbv:BTT-bol",
+                "@prefix": false,
+                "@protected": true
+              },
+              "cert": {
+                "@id": "cbv:BTT-cert",
+                "@prefix": false,
+                "@protected": true
+              },
+              "desadv": {
+                "@id": "cbv:BTT-desadv",
+                "@prefix": false,
+                "@protected": true
+              },
+              "inv": {
+                "@id": "cbv:BTT-inv",
+                "@prefix": false,
+                "@protected": true
+              },
+              "pedigree": {
+                "@id": "cbv:BTT-pedigree",
+                "@prefix": false,
+                "@protected": true
+              },
+              "po": {
+                "@id": "cbv:BTT-po",
+                "@prefix": false,
+                "@protected": true
+              },
+              "poc": {
+                "@id": "cbv:BTT-poc",
+                "@prefix": false,
+                "@protected": true
+              },
+              "prodorder": {
+                "@id": "cbv:BTT-prodorder",
+                "@prefix": false,
+                "@protected": true
+              },
+              "recadv": {
+                "@id": "cbv:BTT-recadv",
+                "@prefix": false,
+                "@protected": true
+              },
+              "rma": {
+                "@id": "cbv:BTT-rma",
+                "@prefix": false,
+                "@protected": true
+              },
+              "testprd": {
+                "@id": "cbv:BTT-testprd",
+                "@prefix": false,
+                "@protected": true
+              },
+              "testres": {
+                "@id": "cbv:BTT-testres",
+                "@prefix": false,
+                "@protected": true
+              },
+              "upevt": {
+                "@id": "cbv:BTT-upevt",
+                "@prefix": false,
+                "@protected": true
+              }
+            },
+            "@prefix": false,
+            "@protected": true
+          },
+          "@propagate": false
+        },
+        "@prefix": false,
+        "@protected": true
+      },
+      "parentID": {
+        "@id": "epcis:parentID",
+        "@type": "@id",
+        "@prefix": false,
+        "@protected": true
+      },
+      "childEPCs": {
+        "@id": "epcis:childEPCs",
+        "@type": "@id",
+        "@container": "@set",
+        "@prefix": false,
+        "@protected": true
+      },
+      "childQuantityList": {
+        "@id": "epcis:childQuantityList",
+        "@container": "@set",
+        "@prefix": false,
+        "@protected": true
+      },
+      "inputEPCList": {
+        "@id": "epcis:inputEPCList",
+        "@container": "@set",
+        "@type": "@id",
+        "@prefix": false,
+        "@protected": true
+      },
+      "outputEPCList": {
+        "@id": "epcis:outputEPCList",
+        "@container": "@set",
+        "@type": "@id",
+        "@prefix": false,
+        "@protected": true
+      },
+      "inputQuantityList": {
+        "@id": "epcis:inputQuantityList",
+        "@container": "@set",
+        "@prefix": false,
+        "@protected": true
+      },
+      "outputQuantityList": {
+        "@id": "epcis:outputQuantityList",
+        "@container": "@set",
+        "@prefix": false,
+        "@protected": true
+      },
+      "sensorElementList": {
+        "@id": "epcis:sensorElementList",
+        "@container": "@set",
+        "@context": {
+          "@protected": true,
+          "deviceID": {
+            "@id": "epcis:deviceID",
+            "@type": "@id",
+            "@prefix": false,
+            "@protected": true
+          },
+          "deviceMetadata": {
+            "@id": "epcis:deviceMetadata",
+            "@type": "@id",
+            "@prefix": false,
+            "@protected": true
+          },
+          "rawData": {
+            "@id": "epcis:rawData",
+            "@type": "@id",
+            "@prefix": false,
+            "@protected": true
+          },
+          "dataProcessingMethod": {
+            "@id": "epcis:dataProcessingMethod",
+            "@type": "@id",
+            "@prefix": false,
+            "@protected": true
+          },
+          "time": {
+            "@id": "epcis:time",
+            "@type": "xsd:dateTimeStamp",
+            "@prefix": false,
+            "@protected": true
+          },
+          "type": {
+            "@id": "@type",
+            "@prefix": false,
+            "@protected": true
+          },
+          "sensorMetadata": {
+            "@id": "epcis:sensorMetadata",
+            "@context": {
+              "@protected": true,
+              "startTime": {
+                "@id": "epcis:startTime",
+                "@type": "xsd:dateTimeStamp",
+                "@prefix": false,
+                "@protected": true
+              },
+              "endTime": {
+                "@id": "epcis:endTime",
+                "@type": "xsd:dateTimeStamp",
+                "@prefix": false,
+                "@protected": true
+              },
+              "bizRules": {
+                "@id": "epcis:bizRules",
+                "@type": "@id",
+                "@prefix": false,
+                "@protected": true
+              },
+              "@propagate": false
+            },
+            "@prefix": false,
+            "@protected": true
+          },
+          "sensorReport": {
+            "@id": "epcis:sensorReport",
+            "@context": {
+              "@protected": true,
+              "type": {
+                "@context": {
+                  "AbsoluteHumidity": {
+                    "@id": "gs1:AbsoluteHumidity",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "AbsorbedDose": {
+                    "@id": "gs1:AbsorbedDose",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "AbsorbedDoseRate": {
+                    "@id": "gs1:AbsorbedDoseRate",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "Acceleration": {
+                    "@id": "gs1:Acceleration",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "Radioactivity": {
+                    "@id": "gs1:Radioactivity",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "Altitude": {
+                    "@id": "gs1:Altitude",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "AmountOfSubstance": {
+                    "@id": "gs1:AmountOfSubstance",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "AmountOfSubstancePerUnitVolume": {
+                    "@id": "gs1:AmountOfSubstancePerUnitVolume",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "Angle": {
+                    "@id": "gs1:Angle",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "AngularAcceleration": {
+                    "@id": "gs1:AngularAcceleration",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "AngularMomentum": {
+                    "@id": "gs1:AngularMomentum",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "AngularVelocity": {
+                    "@id": "gs1:AngularVelocity",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "Area": {
+                    "@id": "gs1:Area",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "Capacitance": {
+                    "@id": "gs1:Capacitance",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "Conductance": {
+                    "@id": "gs1:Conductance",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "Conductivity": {
+                    "@id": "gs1:Conductivity",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "Count": {
+                    "@id": "gs1:Count",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "Density": {
+                    "@id": "gs1:Density",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "Dimensionless": {
+                    "@id": "gs1:Dimensionless",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "DoseEquivalent": {
+                    "@id": "gs1:DoseEquivalent",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "DoseEquivalentRate": {
+                    "@id": "gs1:DoseEquivalentRate",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "DynamicViscosity": {
+                    "@id": "gs1:DynamicViscosity",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "ElectricCharge": {
+                    "@id": "gs1:ElectricCharge",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "ElectricCurrent": {
+                    "@id": "gs1:ElectricCurrent",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "ElectricCurrentDensity": {
+                    "@id": "gs1:ElectricCurrentDensity",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "ElectricFieldStrength": {
+                    "@id": "gs1:ElectricFieldStrength",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "Energy": {
+                    "@id": "gs1:Energy",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "Exposure": {
+                    "@id": "gs1:Exposure",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "Force": {
+                    "@id": "gs1:Force",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "Frequency": {
+                    "@id": "gs1:Frequency",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "Illuminance": {
+                    "@id": "gs1:Illuminance",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "Inductance": {
+                    "@id": "gs1:Inductance",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "Irradiance": {
+                    "@id": "gs1:Irradiance",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "KinematicViscosity": {
+                    "@id": "gs1:KinematicViscosity",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "Length": {
+                    "@id": "gs1:Length",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "LinearMomentum": {
+                    "@id": "gs1:LinearMomentum",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "Luminance": {
+                    "@id": "gs1:Luminance",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "LuminousFlux": {
+                    "@id": "gs1:LuminousFlux",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "LuminousIntensity": {
+                    "@id": "gs1:LuminousIntensity",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "MagneticFlux": {
+                    "@id": "gs1:MagneticFlux",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "MagneticFluxDensity": {
+                    "@id": "gs1:MagneticFluxDensity",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "MagneticVectorPotential": {
+                    "@id": "gs1:MagneticVectorPotential",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "Mass": {
+                    "@id": "gs1:Mass",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "MassConcentration": {
+                    "@id": "gs1:MassConcentration",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "MassFlowRate": {
+                    "@id": "gs1:MassFlowRate",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "MassPerAreaTime": {
+                    "@id": "gs1:MassPerAreaTime",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "MemoryCapacity": {
+                    "@id": "gs1:MemoryCapacity",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "MolalityOfSolute": {
+                    "@id": "gs1:MolalityOfSolute",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "MolarEnergy": {
+                    "@id": "gs1:MolarEnergy",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "MolarMass": {
+                    "@id": "gs1:MolarMass",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "MolarVolume": {
+                    "@id": "gs1:MolarVolume",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "Power": {
+                    "@id": "gs1:Power",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "Pressure": {
+                    "@id": "gs1:Pressure",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "RadiantFlux": {
+                    "@id": "gs1:RadiantFlux",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "RadiantIntensity": {
+                    "@id": "gs1:RadiantIntensity",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "RelativeHumidity": {
+                    "@id": "gs1:RelativeHumidity",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "Resistance": {
+                    "@id": "gs1:Resistance",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "Resistivity": {
+                    "@id": "gs1:Resistivity",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "SolidAngle": {
+                    "@id": "gs1:SolidAngle",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "SpecificVolume": {
+                    "@id": "gs1:SpecificVolume",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "Speed": {
+                    "@id": "gs1:Speed",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "SurfaceDensity": {
+                    "@id": "gs1:SurfaceDensity",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "SurfaceTension": {
+                    "@id": "gs1:SurfaceTension",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "Temperature": {
+                    "@id": "gs1:Temperature",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "Time": {
+                    "@id": "gs1:Time",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "Torque": {
+                    "@id": "gs1:Torque",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "Voltage": {
+                    "@id": "gs1:Voltage",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "Volume": {
+                    "@id": "gs1:Volume",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "VolumeFlowRate": {
+                    "@id": "gs1:VolumeFlowRate",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "VolumeFraction": {
+                    "@id": "gs1:VolumeFraction",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "VolumetricFlux": {
+                    "@id": "gs1:VolumetricFlux",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "Wavenumber": {
+                    "@id": "gs1:Wavenumber",
+                    "@prefix": false,
+                    "@protected": true
+                  }
+                },
+                "@id": "epcis:measurementType",
+                "@type": "@vocab",
+                "@prefix": false,
+                "@protected": true
+              },
+              "exception": {
+                "@context": {
+                  "ALARM_CONDITION": {
+                    "@id": "gs1:ALARM_CONDITION",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "ERROR_CONDITION": {
+                    "@id": "gs1:ERROR_CONDITION",
+                    "@prefix": false,
+                    "@protected": true
+                  }
+                },
+                "@id": "epcis:exception",
+                "@type": "@vocab",
+                "@prefix": false,
+                "@protected": true
+              },
+              "coordinateReferenceSystem": {
+                "@id": "epcis:coordinateReferenceSystem",
+                "@type": "@id",
+                "@prefix": false,
+                "@protected": true
+              },
+              "microorganism": {
+                "@id": "epcis:microorganism",
+                "@type": "@id",
+                "@prefix": false,
+                "@protected": true
+              },
+              "chemicalSubstance": {
+                "@id": "epcis:chemicalSubstance",
+                "@type": "@id",
+                "@prefix": false,
+                "@protected": true
+              },
+              "time": {
+                "@id": "epcis:time",
+                "@type": "xsd:dateTimeStamp",
+                "@prefix": false,
+                "@protected": true
+              },
+              "value": {
+                "@id": "epcis:value",
+                "@type": "xsd:double",
+                "@prefix": false,
+                "@protected": true
+              },
+              "component": {
+                "@context": {
+                  "x": {
+                    "@id": "cbv:Comp-x",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "y": {
+                    "@id": "cbv:Comp-y",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "z": {
+                    "@id": "cbv:Comp-z",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "axial_distance": {
+                    "@id": "cbv:Comp-axial_distance",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "azimuth": {
+                    "@id": "cbv:Comp-azimuth",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "height": {
+                    "@id": "cbv:Comp-height",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "spherical_radius": {
+                    "@id": "cbv:Comp-spherical_radius",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "polar_angle": {
+                    "@id": "cbv:Comp-polar_angle",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "elevation_angle": {
+                    "@id": "cbv:Comp-elevation_angle",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "easting": {
+                    "@id": "cbv:Comp-easting",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "northing": {
+                    "@id": "cbv:Comp-northing",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "latitude": {
+                    "@id": "cbv:Comp-latitude",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "longitude": {
+                    "@id": "cbv:Comp-longitude",
+                    "@prefix": false,
+                    "@protected": true
+                  },
+                  "altitude": {
+                    "@id": "cbv:Comp-altitude",
+                    "@prefix": false,
+                    "@protected": true
+                  }
+                },
+                "@id": "epcis:component",
+                "@type": "@vocab",
+                "@prefix": false,
+                "@protected": true
+              },
+              "stringValue": {
+                "@id": "epcis:stringValue",
+                "@prefix": false,
+                "@protected": true
+              },
+              "booleanValue": {
+                "@id": "epcis:booleanValue",
+                "@type": "xsd:boolean",
+                "@prefix": false,
+                "@protected": true
+              },
+              "hexBinaryValue": {
+                "@id": "epcis:hexBinaryValue",
+                "@type": "xsd:hexBinary",
+                "@prefix": false,
+                "@protected": true
+              },
+              "uriValue": {
+                "@id": "epcis:uriValue",
+                "@type": "@id",
+                "@prefix": false,
+                "@protected": true
+              },
+              "minValue": {
+                "@id": "epcis:minValue",
+                "@type": "xsd:double",
+                "@prefix": false,
+                "@protected": true
+              },
+              "maxValue": {
+                "@id": "epcis:maxValue",
+                "@type": "xsd:double",
+                "@prefix": false,
+                "@protected": true
+              },
+              "meanValue": {
+                "@id": "epcis:meanValue",
+                "@type": "xsd:double",
+                "@prefix": false,
+                "@protected": true
+              },
+              "sDev": {
+                "@id": "epcis:sDev",
+                "@type": "xsd:double",
+                "@prefix": false,
+                "@protected": true
+              },
+              "percRank": {
+                "@id": "epcis:percRank",
+                "@type": "xsd:double",
+                "@prefix": false,
+                "@protected": true
+              },
+              "percValue": {
+                "@id": "epcis:percValue",
+                "@type": "xsd:double",
+                "@prefix": false,
+                "@protected": true
+              },
+              "@propagate": false
+            },
+            "@prefix": false,
+            "@protected": true
+          },
+          "@propagate": false
+        },
+        "@prefix": false,
+        "@protected": true
+      },
+      "errorDeclaration": {
+        "@id": "epcis:errorDeclaration",
+        "@context": {
+          "@protected": true,
+          "reason": {
+            "@id": "epcis:reason",
+            "@type": "@vocab",
+            "@context": {
+              "did_not_occur": {
+                "@id": "cbv:ER-did_not_occur",
+                "@prefix": false,
+                "@protected": true
+              },
+              "incorrect_data": {
+                "@id": "cbv:ER-incorrect_data",
+                "@prefix": false,
+                "@protected": true
+              }
+            },
+            "@prefix": false,
+            "@protected": true
+          },
+          "correctiveEventIDs": {
+            "@id": "epcis:correctiveEventIDs",
+            "@type": "@id",
+            "@container": "@set",
+            "@prefix": false,
+            "@protected": true
+          },
+          "declarationTime": {
+            "@id": "epcis:declarationTime",
+            "@type": "xsd:dateTimeStamp",
+            "@prefix": false,
+            "@protected": true
+          },
+          "@propagate": false
+        },
+        "@prefix": false,
+        "@protected": true
+      },
+      "eventID": {
+        "@id": "@id",
+        "@prefix": false,
+        "@protected": true
+      },
+      "creationDate": {
+        "@id": "dct:created",
+        "@type": "xsd:dateTime",
+        "@prefix": false,
+        "@protected": true
+      },
+      "sender": {
+        "@id": "epcis:sender",
+        "@type": "xsd:string",
+        "@prefix": false,
+        "@protected": true
+      },
+      "receiver": {
+        "@id": "epcis:receiver",
+        "@type": "xsd:string",
+        "@prefix": false,
+        "@protected": true
+      },
+      "instanceIdentifier": {
+        "@id": "epcis:instanceIdentifier",
+        "@prefix": false,
+        "@protected": true
+      },
+      "schemaVersion": {
+        "@id": "owl:versionInfo",
+        "@prefix": false,
+        "@protected": true
+      },
+      "ilmd": {
+        "@id": "epcis:ilmd",
+        "@prefix": false,
+        "@protected": true
+      },
+      "EPCISDocument": {
+        "@id": "epcis:EPCISDocument",
+        "@prefix": false,
+        "@protected": true
+      },
+      "EPCISQueryDocument": {
+        "@id": "epcis:EPCISQueryDocument",
+        "@prefix": false,
+        "@protected": true
+      },
+      "epcisHeader": {
+        "@id": "epcis:epcisHeader",
+        "@prefix": false,
+        "@protected": true
+      },
+      "vocabularyList": {
+        "@id": "epcis:vocabularyList",
+        "@prefix": false,
+        "@protected": true
+      },
+      "epcisBody": {
+        "@id": "epcis:epcisBody",
+        "@prefix": false,
+        "@protected": true
+      },
+      "queryResults": {
+        "@id": "epcis:queryResults",
+        "@prefix": false,
+        "@protected": true
+      },
+      "subscriptionID": {
+        "@id": "epcis:subscriptionID",
+        "@prefix": false,
+        "@protected": true
+      },
+      "queryName": {
+        "@id": "epcis:queryName",
+        "@prefix": false,
+        "@protected": true
+      },
+      "resultsBody": {
+        "@id": "epcis:resultsBody",
+        "@prefix": false,
+        "@protected": true
+      },
+      "eventList": {
+        "@id": "epcis:eventList",
+        "@prefix": false,
+        "@protected": true
+      },
+      "children": {
+        "@id": "epcis:children",
+        "@container": "@set",
+        "@type": "@id",
+        "@prefix": false,
+        "@protected": true
+      }
+    }
+  ]
+}
