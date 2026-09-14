@@ -763,7 +763,8 @@
         "@container": "@set",
         "@context": {
           "bizTransaction": {
-            "@id": "@id",
+            "@id": "epcis:bizTransaction",
+            "@type": "@id",
             "@prefix": false,
             "@protected": true
           },
@@ -1538,7 +1539,6 @@
       },
       "eventID": {
         "@id": "@id",
-        "@prefix": false,
         "@protected": true
       },
       "creationDate": {
