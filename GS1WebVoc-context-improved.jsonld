@@ -457,8 +457,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -631,8 +630,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -740,8 +738,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -764,8 +761,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -888,8 +884,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -912,8 +907,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -2006,8 +2000,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -3070,8 +3063,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -3309,8 +3301,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -3548,8 +3539,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -3658,8 +3648,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -3687,8 +3676,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -3866,8 +3854,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -3895,8 +3882,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -4004,8 +3990,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -4063,8 +4048,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -4217,8 +4201,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -4236,8 +4219,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -4310,8 +4292,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -4344,8 +4325,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -4472,8 +4452,7 @@
             "@id": "gs1:ColourCodeList-WWS",
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -4536,8 +4515,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -4620,8 +4598,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -4659,8 +4636,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -4733,8 +4709,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -4777,8 +4752,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -4855,8 +4829,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -4894,8 +4867,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -5198,8 +5170,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -5472,8 +5443,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -5752,8 +5722,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -5811,8 +5780,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -5895,8 +5863,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -5934,8 +5901,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -6073,8 +6039,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -6097,8 +6062,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -6357,8 +6321,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -6386,8 +6349,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -6425,8 +6387,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -6464,8 +6425,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -6513,8 +6473,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -6562,8 +6521,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -6611,8 +6569,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -6660,8 +6617,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -6709,8 +6665,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -6738,8 +6693,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -6772,8 +6726,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -6796,8 +6749,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -6840,8 +6792,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -6874,8 +6825,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -7013,8 +6963,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -7102,8 +7051,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -7443,8 +7391,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -7472,8 +7419,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -7501,8 +7447,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -7530,8 +7475,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -7559,8 +7503,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -7588,8 +7531,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -7617,8 +7559,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -7646,8 +7587,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -7675,8 +7615,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -7704,8 +7643,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -7733,8 +7671,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -7762,8 +7699,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -7791,8 +7727,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -7820,8 +7755,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -8014,8 +7948,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -8188,8 +8121,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -8237,8 +8169,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -8266,8 +8197,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -8295,8 +8225,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -8324,8 +8253,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -8373,8 +8301,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -8402,8 +8329,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -8431,8 +8357,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -8460,8 +8385,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -8489,8 +8413,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -8518,8 +8441,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -8547,8 +8469,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -8576,8 +8497,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -8605,8 +8525,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -8634,8 +8553,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -8663,8 +8581,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -8692,8 +8609,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -8721,8 +8637,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -8750,8 +8665,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -8779,8 +8693,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -8808,8 +8721,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -8837,8 +8749,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -8866,8 +8777,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -9190,8 +9100,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -9359,8 +9268,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -10143,8 +10051,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -10897,8 +10804,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -10916,8 +10822,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -10935,8 +10840,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -11224,8 +11128,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -11418,8 +11321,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -11492,8 +11394,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -11516,8 +11417,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -11774,8 +11674,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -11798,8 +11697,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -11837,8 +11735,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -11856,8 +11753,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -11880,8 +11776,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -11904,8 +11799,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -12183,8 +12077,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -12462,8 +12355,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -12556,8 +12448,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -12590,8 +12481,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -12809,8 +12699,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -12988,8 +12877,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -13052,8 +12940,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -13091,8 +12978,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -13405,8 +13291,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -13689,8 +13574,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -14358,8 +14242,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -14997,8 +14880,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -15016,8 +14898,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -15035,8 +14916,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -15279,8 +15159,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -15418,8 +15297,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -15507,8 +15385,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -15596,8 +15473,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -15710,8 +15586,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -15824,8 +15699,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -15973,8 +15847,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -16122,8 +15995,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -16451,8 +16323,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -16780,8 +16651,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -17314,8 +17184,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -17818,8 +17687,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -17847,8 +17715,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -17876,8 +17743,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -17905,8 +17771,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -17934,8 +17799,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -17988,8 +17852,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -18042,8 +17905,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -18376,8 +18238,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -18570,8 +18431,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -18739,8 +18599,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -18878,8 +18737,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -19037,8 +18895,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -19066,8 +18923,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -19666,8 +19522,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -20060,8 +19915,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -20504,8 +20358,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -20908,8 +20761,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -20937,8 +20789,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -20951,8 +20802,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -21030,8 +20880,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -21059,8 +20908,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -21333,8 +21181,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -21377,8 +21224,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -21506,8 +21352,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -21545,8 +21390,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -21659,8 +21503,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -21723,8 +21566,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -21767,8 +21609,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -21811,8 +21652,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -21880,8 +21720,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -21949,8 +21788,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -22258,8 +22096,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -22527,8 +22364,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -22681,8 +22517,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -22835,8 +22670,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -23044,8 +22878,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -23103,8 +22936,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -23132,8 +22964,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -23156,8 +22987,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
@@ -23350,8 +23180,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@prefix": false,
         "@protected": true
@@ -23414,8 +23243,7 @@
             "@prefix": false,
             "@protected": true
           },
-          "@protected": true,
-          "@propagate": false
+          "@protected": true
         },
         "@protected": true
       },
