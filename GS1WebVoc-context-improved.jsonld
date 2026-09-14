@@ -456,8 +456,7 @@
             "@id": "gs1:PaymentMethod-WIRE_TRANSFER_DEBIT",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -629,8 +628,7 @@
             "@id": "gs1:PaymentMethod-WIRE_TRANSFER_DEBIT",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -737,8 +735,7 @@
             "@id": "gs1:LevelOfContainmentCode-MAY_CONTAIN",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -760,8 +757,7 @@
             "@id": "gs1:LevelOfContainmentCode-MAY_CONTAIN",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -883,8 +879,7 @@
             "@id": "gs1:LevelOfContainmentCode-MAY_CONTAIN",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -906,8 +901,7 @@
             "@id": "gs1:LevelOfContainmentCode-MAY_CONTAIN",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -1999,8 +1993,7 @@
             "@id": "gs1:AllergenTypeCode-YMD",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -3062,8 +3055,7 @@
             "@id": "gs1:AllergenTypeCode-YMD",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -3300,8 +3292,7 @@
             "@id": "gs1:AnatomicalFormCode-WHOLE_MUSCLE_SUBPRIMAL",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -3538,8 +3529,7 @@
             "@id": "gs1:AnatomicalFormCode-WHOLE_MUSCLE_SUBPRIMAL",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -3647,8 +3637,7 @@
             "@id": "gs1:SecurityMarking-WATERMARK",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -3675,8 +3664,7 @@
             "@id": "gs1:SecurityMarking-WATERMARK",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -3853,8 +3841,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -3881,8 +3868,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -3989,8 +3975,7 @@
             "@id": "gs1:BusinessEntityType-SOE",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -4047,8 +4032,7 @@
             "@id": "gs1:BusinessEntityType-SOE",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -4200,8 +4184,7 @@
             "@id": "gs1:CertificationStatus-INACTIVE",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -4218,8 +4201,7 @@
             "@id": "gs1:CertificationStatus-INACTIVE",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -4291,8 +4273,7 @@
             "@id": "gs1:CheeseFirmnessCode-UNIDENTIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -4324,8 +4305,7 @@
             "@id": "gs1:CheeseFirmnessCode-UNIDENTIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -4451,8 +4431,7 @@
           "gs1:ColourCodeList-WWS": {
             "@id": "gs1:ColourCodeList-WWS",
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -4514,8 +4493,7 @@
             "@id": "gs1:ColourCodeList-WWS",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -4597,8 +4575,7 @@
             "@id": "gs1:CompulsoryAdditionalLabelInformationTypeCode-SWEETENERS",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -4635,8 +4612,7 @@
             "@id": "gs1:CompulsoryAdditionalLabelInformationTypeCode-SWEETENERS",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -4708,8 +4684,7 @@
             "@id": "gs1:ConsumerLifestageCode-UNIDENTIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -4751,8 +4726,7 @@
             "@id": "gs1:ConsumerLifestageCode-UNIDENTIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -4828,8 +4802,7 @@
             "@id": "gs1:ConsumerSalesConditionsCode-RESTRICTED_TO_SELL_21",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -4866,8 +4839,7 @@
             "@id": "gs1:ConsumerSalesConditionsCode-RESTRICTED_TO_SELL_21",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -5169,8 +5141,7 @@
             "@id": "gs1:ContactRoleType-WARRANTY_CONTACT",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -5442,8 +5413,7 @@
             "@id": "gs1:ContactRoleType-WARRANTY_CONTACT",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -5721,8 +5691,7 @@
             "@id": "gs1:DietTypeCode-WITHOUT_PORK",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -5779,8 +5748,7 @@
             "@id": "gs1:DietTypeCode-WITHOUT_PORK",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -5862,8 +5830,7 @@
             "@id": "gs1:DiscountTypeCode-PERCENTAGE_OFF",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -5900,8 +5867,7 @@
             "@id": "gs1:DiscountTypeCode-PERCENTAGE_OFF",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -6038,8 +6004,7 @@
             "@id": "gs1:TradeChannelCode-ONLINE_ONLY",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -6061,8 +6026,7 @@
             "@id": "gs1:TradeChannelCode-ONLINE_ONLY",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -6320,8 +6284,7 @@
             "@id": "gs1:FoodBeverageRefrigerationClaimCode-UNIDENTIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -6348,8 +6311,7 @@
             "@id": "gs1:FoodBeverageRefrigerationClaimCode-UNIDENTIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -6386,8 +6348,7 @@
             "@id": "gs1:FoodBeverageTargetUseCode-UNCLASSIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -6424,8 +6385,7 @@
             "@id": "gs1:FoodBeverageTargetUseCode-UNCLASSIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -6472,8 +6432,7 @@
             "@id": "gs1:FootwearFasteningTypeCode-VELCRO",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -6520,8 +6479,7 @@
             "@id": "gs1:FootwearFasteningTypeCode-VELCRO",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -6568,8 +6526,7 @@
             "@id": "gs1:UpperTypeCode-UNCLASSIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -6616,8 +6573,7 @@
             "@id": "gs1:UpperTypeCode-UNCLASSIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -6664,8 +6620,7 @@
             "@id": "gs1:FreshOrSeawaterFarmedCode-UNIDENTIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -6692,8 +6647,7 @@
             "@id": "gs1:FreshOrSeawaterFarmedCode-UNIDENTIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -6725,8 +6679,7 @@
             "@id": "gs1:LevelOfContainmentCode-MAY_CONTAIN",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -6748,8 +6701,7 @@
             "@id": "gs1:LevelOfContainmentCode-MAY_CONTAIN",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -6791,8 +6743,7 @@
             "@id": "gs1:GLN_TypeCode-MOBILE_PHYSICAL_LOCATION",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -6824,8 +6775,7 @@
             "@id": "gs1:GLN_TypeCode-MOBILE_PHYSICAL_LOCATION",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -6962,8 +6912,7 @@
             "@id": "gs1:GrowingMethodCode-WILD",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -7050,8 +6999,7 @@
             "@id": "gs1:GrowingMethodCode-WILD",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -7390,8 +7338,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -7418,8 +7365,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -7446,8 +7392,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -7474,8 +7419,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -7502,8 +7446,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -7530,8 +7473,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -7558,8 +7500,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -7586,8 +7527,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -7614,8 +7554,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -7642,8 +7581,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -7670,8 +7608,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -7698,8 +7635,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -7726,8 +7662,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -7754,8 +7689,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -7947,8 +7881,7 @@
             "@id": "gs1:PaymentMethod-WIRE_TRANSFER_DEBIT",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -8120,8 +8053,7 @@
             "@id": "gs1:PaymentMethod-WIRE_TRANSFER_DEBIT",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -8168,8 +8100,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -8196,8 +8127,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -8224,8 +8154,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -8252,8 +8181,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -8300,8 +8228,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -8328,8 +8255,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -8356,8 +8282,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -8384,8 +8309,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -8412,8 +8336,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -8440,8 +8363,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -8468,8 +8390,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -8496,8 +8417,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -8524,8 +8444,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -8552,8 +8471,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -8580,8 +8498,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -8608,8 +8525,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -8636,8 +8552,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -8664,8 +8579,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -8692,8 +8606,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -8720,8 +8633,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -8748,8 +8660,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -8776,8 +8687,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -9099,8 +9009,7 @@
             "@id": "gs1:LocationID_Type-US_TCN_CODE",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -9267,8 +9176,7 @@
             "@id": "gs1:LocationID_Type-US_TCN_CODE",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -10050,8 +9958,7 @@
             "@id": "gs1:LocationRoleType-YARD",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -10803,8 +10710,7 @@
             "@id": "gs1:LocationRoleType-YARD",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -10821,8 +10727,7 @@
             "@id": "gs1:StatusType-INACTIVE",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -10839,8 +10744,7 @@
             "@id": "gs1:StatusType-INACTIVE",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -11127,8 +11031,7 @@
             "@id": "gs1:PreparationTypeCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -11320,8 +11223,7 @@
             "@id": "gs1:PreparationTypeCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -11393,8 +11295,7 @@
             "@id": "gs1:MaturationMethodCode-TREE_VINE_RIPE",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -11416,8 +11317,7 @@
             "@id": "gs1:MaturationMethodCode-TREE_VINE_RIPE",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -11673,8 +11573,7 @@
             "@id": "gs1:MeasurementPrecisionCode-LESS_THAN",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -11696,8 +11595,7 @@
             "@id": "gs1:MeasurementPrecisionCode-LESS_THAN",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -11734,8 +11632,7 @@
             "@id": "gs1:NutrientBasisQuantityCode-BY_SERVING",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -11752,8 +11649,7 @@
             "@id": "gs1:NutrientBasisQuantityCode-BY_SERVING",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -11775,8 +11671,7 @@
             "@id": "gs1:MeasurementPrecisionCode-LESS_THAN",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -11798,8 +11693,7 @@
             "@id": "gs1:MeasurementPrecisionCode-LESS_THAN",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -12076,8 +11970,7 @@
             "@id": "gs1:NutritionalClaimTypeCode-WITH_NO_ADDED_SUGARS",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -12354,8 +12247,7 @@
             "@id": "gs1:NutritionalClaimTypeCode-WITH_NO_ADDED_SUGARS",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -12447,8 +12339,7 @@
             "@id": "gs1:OfferRedemptionTypeCode-SINGLE_USE_CODE",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -12480,8 +12371,7 @@
             "@id": "gs1:OfferRedemptionTypeCode-SINGLE_USE_CODE",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -12698,8 +12588,7 @@
             "@id": "gs1:OrganicClaimAgencyCode-999",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -12876,8 +12765,7 @@
             "@id": "gs1:OrganicClaimAgencyCode-999",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -12939,8 +12827,7 @@
             "@id": "gs1:OrganizationClassificationType-SIC",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -12977,8 +12864,7 @@
             "@id": "gs1:OrganizationClassificationType-SIC",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -13290,8 +13176,7 @@
             "@id": "gs1:OrganizationID_Type-US_UEI",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -13573,8 +13458,7 @@
             "@id": "gs1:OrganizationID_Type-US_UEI",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -14241,8 +14125,7 @@
             "@id": "gs1:OrganizationRoleType-WHOLESALER",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -14879,8 +14762,7 @@
             "@id": "gs1:OrganizationRoleType-WHOLESALER",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -14897,8 +14779,7 @@
             "@id": "gs1:StatusType-INACTIVE",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -14915,8 +14796,7 @@
             "@id": "gs1:StatusType-INACTIVE",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -15158,8 +15038,7 @@
             "@id": "gs1:PackagingFeatureCode-WRAP",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -15296,8 +15175,7 @@
             "@id": "gs1:PackagingFeatureCode-WRAP",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -15384,8 +15262,7 @@
             "@id": "gs1:PackagingFunctionCode-WATER_RESISTANT",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -15472,8 +15349,7 @@
             "@id": "gs1:PackagingFunctionCode-WATER_RESISTANT",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -15585,8 +15461,7 @@
             "@id": "gs1:PackagingMarkedDietAllergenCode-VEGETARIAN",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -15698,8 +15573,7 @@
             "@id": "gs1:PackagingMarkedDietAllergenCode-VEGETARIAN",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -15846,8 +15720,7 @@
             "@id": "gs1:PackagingMarkedFreeFromCode-WITHOUT_ADDED_SWEETENER",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -15994,8 +15867,7 @@
             "@id": "gs1:PackagingMarkedFreeFromCode-WITHOUT_ADDED_SWEETENER",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -16322,8 +16194,7 @@
             "@id": "gs1:PackagingMarkedLabelAccreditationCode-WWF_PANDA_LABEL",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -16650,8 +16521,7 @@
             "@id": "gs1:PackagingMarkedLabelAccreditationCode-WWF_PANDA_LABEL",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -17183,8 +17053,7 @@
             "@id": "gs1:PackagingMaterialTypeCode-WOOD_SOFTWOOD",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -17686,8 +17555,7 @@
             "@id": "gs1:PackagingMaterialTypeCode-WOOD_SOFTWOOD",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -17714,8 +17582,7 @@
             "@id": "gs1:PackagingRecyclingProcessTypeCode-REUSABLE",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -17742,8 +17609,7 @@
             "@id": "gs1:PackagingRecyclingProcessTypeCode-REUSABLE",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -17770,8 +17636,7 @@
             "@id": "gs1:PackagingRecyclingSchemeCode-PALPA",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -17798,8 +17663,7 @@
             "@id": "gs1:PackagingRecyclingSchemeCode-PALPA",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -17851,8 +17715,7 @@
             "@id": "gs1:PackagingShapeCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -17904,8 +17767,7 @@
             "@id": "gs1:PackagingShapeCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -18237,8 +18099,7 @@
             "@id": "gs1:PreparationTypeCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -18430,8 +18291,7 @@
             "@id": "gs1:PreparationTypeCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -18598,8 +18458,7 @@
             "@id": "gs1:PreservationTechniqueCode-VACUUM_PACKED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -18736,8 +18595,7 @@
             "@id": "gs1:PreservationTechniqueCode-VACUUM_PACKED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -18894,8 +18752,7 @@
             "@id": "gs1:ProductYieldTypeCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -18922,8 +18779,7 @@
             "@id": "gs1:ProductYieldTypeCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -19521,8 +19377,7 @@
             "@id": "gs1:ReferencedFileTypeCode-ZOOM_VIEW",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -19914,8 +19769,7 @@
             "@id": "gs1:ReferencedFileTypeCode-ZOOM_VIEW",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -20357,8 +20211,7 @@
             "@id": "gs1:RegulationTypeCode-WARRANTY_REQUIREMENTS",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -20760,8 +20613,7 @@
             "@id": "gs1:RegulationTypeCode-WARRANTY_REQUIREMENTS",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -20788,8 +20640,7 @@
             "@id": "gs1:RegulatoryIdentifierType-DUE_DILIGENCE_STATEMENT",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -20801,8 +20652,7 @@
             "@id": "gs1:RegulatoryIdentifierType-DUE_DILIGENCE_STATEMENT",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -20879,8 +20729,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -20907,8 +20756,7 @@
             "@id": "gs1:NonbinaryLogicCode-UNSPECIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -21180,8 +21028,7 @@
             "@id": "gs1:SeasonParameterCode-WINTER",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -21223,8 +21070,7 @@
             "@id": "gs1:SeasonParameterCode-WINTER",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -21351,8 +21197,7 @@
             "@id": "gs1:SharpnessOfCheeseCode-UNCLASSIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -21389,8 +21234,7 @@
             "@id": "gs1:SharpnessOfCheeseCode-UNCLASSIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -21502,8 +21346,7 @@
             "@id": "gs1:SizeGroupCode-WOMENS_TALL",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -21565,8 +21408,7 @@
             "@id": "gs1:SizeGroupCode-WOMENS_TALL",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -21608,8 +21450,7 @@
             "@id": "gs1:SizeSystemCode-US",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -21651,8 +21492,7 @@
             "@id": "gs1:SizeSystemCode-US",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -21719,8 +21559,7 @@
             "@id": "gs1:SizeTypeCode-WIDTH",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -21787,8 +21626,7 @@
             "@id": "gs1:SizeTypeCode-WIDTH",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -22095,8 +21933,7 @@
             "@id": "gs1:SourceAnimalCode-YAK",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -22363,8 +22200,7 @@
             "@id": "gs1:SourceAnimalCode-YAK",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -22516,8 +22352,7 @@
             "@id": "gs1:SportingActivityTypeCode-UNIDENTIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -22669,8 +22504,7 @@
             "@id": "gs1:SportingActivityTypeCode-UNIDENTIFIED",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -22877,8 +22711,7 @@
             "@id": "gs1:SweetnessLevelOfAlcoholicBeverageCode-SWEET",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -22935,8 +22768,7 @@
             "@id": "gs1:SweetnessLevelOfAlcoholicBeverageCode-SWEET",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -22963,8 +22795,7 @@
             "@id": "gs1:TargetConsumerGenderCode-UNISEX",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -22986,8 +22817,7 @@
             "@id": "gs1:TargetConsumerGenderCode-UNISEX",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
@@ -23179,8 +23009,7 @@
             "@id": "gs1:TransactionType-VN",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -23242,8 +23071,7 @@
             "@id": "gs1:TransactionType-VN",
             "@prefix": false,
             "@protected": true
-          },
-          "@protected": true
+          }
         },
         "@protected": true
       },
