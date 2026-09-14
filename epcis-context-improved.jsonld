@@ -1,6 +1,6 @@
 {
   "@context": [
-    "https://mgh128.github.io/JSON-LDcontext_experiments/GS1-WebVoc-context-improved.jsonld",
+    "https://ref.gs1.org/voc/data/GS1WebVoc-context.jsonld",
     {
       "@protected": true,
       "@version": 1.1,
