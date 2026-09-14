@@ -487,23 +487,21 @@
           "type": {
             "@id": "epcis:sourceOrDestinationType",
             "@type": "@vocab",
-            "@context": {
-              "owning_party": {
-                "@id": "cbv:SDT-owning_party",
-                "@prefix": false,
-                "@protected": true
-              },
-              "possessing_party": {
-                "@id": "cbv:SDT-possessing_party",
-                "@prefix": false,
-                "@protected": true
-              },
-              "location": {
-                "@id": "cbv:SDT-location",
-                "@prefix": false,
-                "@protected": true
-              }
-            },
+            "@prefix": false,
+            "@protected": true
+          },
+          "owning_party": {
+            "@id": "cbv:SDT-owning_party",
+            "@prefix": false,
+            "@protected": true
+          },
+          "possessing_party": {
+            "@id": "cbv:SDT-possessing_party",
+            "@prefix": false,
+            "@protected": true
+          },
+          "location": {
+            "@id": "cbv:SDT-location",
             "@prefix": false,
             "@protected": true
           }
@@ -524,23 +522,21 @@
           "type": {
             "@id": "epcis:sourceOrDestinationType",
             "@type": "@vocab",
-            "@context": {
-              "owning_party": {
-                "@id": "cbv:SDT-owning_party",
-                "@prefix": false,
-                "@protected": true
-              },
-              "possessing_party": {
-                "@id": "cbv:SDT-possessing_party",
-                "@prefix": false,
-                "@protected": true
-              },
-              "location": {
-                "@id": "cbv:SDT-location",
-                "@prefix": false,
-                "@protected": true
-              }
-            },
+            "@prefix": false,
+            "@protected": true
+          },
+          "owning_party": {
+            "@id": "cbv:SDT-owning_party",
+            "@prefix": false,
+            "@protected": true
+          },
+          "possessing_party": {
+            "@id": "cbv:SDT-possessing_party",
+            "@prefix": false,
+            "@protected": true
+          },
+          "location": {
+            "@id": "cbv:SDT-location",
             "@prefix": false,
             "@protected": true
           }
@@ -774,73 +770,71 @@
           "type": {
             "@id": "epcis:bizTransactionType",
             "@type": "@vocab",
-            "@context": {
-              "bol": {
-                "@id": "cbv:BTT-bol",
-                "@prefix": false,
-                "@protected": true
-              },
-              "cert": {
-                "@id": "cbv:BTT-cert",
-                "@prefix": false,
-                "@protected": true
-              },
-              "desadv": {
-                "@id": "cbv:BTT-desadv",
-                "@prefix": false,
-                "@protected": true
-              },
-              "inv": {
-                "@id": "cbv:BTT-inv",
-                "@prefix": false,
-                "@protected": true
-              },
-              "pedigree": {
-                "@id": "cbv:BTT-pedigree",
-                "@prefix": false,
-                "@protected": true
-              },
-              "po": {
-                "@id": "cbv:BTT-po",
-                "@prefix": false,
-                "@protected": true
-              },
-              "poc": {
-                "@id": "cbv:BTT-poc",
-                "@prefix": false,
-                "@protected": true
-              },
-              "prodorder": {
-                "@id": "cbv:BTT-prodorder",
-                "@prefix": false,
-                "@protected": true
-              },
-              "recadv": {
-                "@id": "cbv:BTT-recadv",
-                "@prefix": false,
-                "@protected": true
-              },
-              "rma": {
-                "@id": "cbv:BTT-rma",
-                "@prefix": false,
-                "@protected": true
-              },
-              "testprd": {
-                "@id": "cbv:BTT-testprd",
-                "@prefix": false,
-                "@protected": true
-              },
-              "testres": {
-                "@id": "cbv:BTT-testres",
-                "@prefix": false,
-                "@protected": true
-              },
-              "upevt": {
-                "@id": "cbv:BTT-upevt",
-                "@prefix": false,
-                "@protected": true
-              }
-            },
+            "@prefix": false,
+            "@protected": true
+          },
+          "bol": {
+            "@id": "cbv:BTT-bol",
+            "@prefix": false,
+            "@protected": true
+          },
+          "cert": {
+            "@id": "cbv:BTT-cert",
+            "@prefix": false,
+            "@protected": true
+          },
+          "desadv": {
+            "@id": "cbv:BTT-desadv",
+            "@prefix": false,
+            "@protected": true
+          },
+          "inv": {
+            "@id": "cbv:BTT-inv",
+            "@prefix": false,
+            "@protected": true
+          },
+          "pedigree": {
+            "@id": "cbv:BTT-pedigree",
+            "@prefix": false,
+            "@protected": true
+          },
+          "po": {
+            "@id": "cbv:BTT-po",
+            "@prefix": false,
+            "@protected": true
+          },
+          "poc": {
+            "@id": "cbv:BTT-poc",
+            "@prefix": false,
+            "@protected": true
+          },
+          "prodorder": {
+            "@id": "cbv:BTT-prodorder",
+            "@prefix": false,
+            "@protected": true
+          },
+          "recadv": {
+            "@id": "cbv:BTT-recadv",
+            "@prefix": false,
+            "@protected": true
+          },
+          "rma": {
+            "@id": "cbv:BTT-rma",
+            "@prefix": false,
+            "@protected": true
+          },
+          "testprd": {
+            "@id": "cbv:BTT-testprd",
+            "@prefix": false,
+            "@protected": true
+          },
+          "testres": {
+            "@id": "cbv:BTT-testres",
+            "@prefix": false,
+            "@protected": true
+          },
+          "upevt": {
+            "@id": "cbv:BTT-upevt",
             "@prefix": false,
             "@protected": true
           }
@@ -928,592 +922,577 @@
             "@protected": true
           },
           "type": {
-            "@id": "@type",
+            "@context": {
+              "AbsoluteHumidity": {
+                "@id": "gs1:AbsoluteHumidity",
+                "@prefix": false,
+                "@protected": true
+              },
+              "AbsorbedDose": {
+                "@id": "gs1:AbsorbedDose",
+                "@prefix": false,
+                "@protected": true
+              },
+              "AbsorbedDoseRate": {
+                "@id": "gs1:AbsorbedDoseRate",
+                "@prefix": false,
+                "@protected": true
+              },
+              "Acceleration": {
+                "@id": "gs1:Acceleration",
+                "@prefix": false,
+                "@protected": true
+              },
+              "Radioactivity": {
+                "@id": "gs1:Radioactivity",
+                "@prefix": false,
+                "@protected": true
+              },
+              "Altitude": {
+                "@id": "gs1:Altitude",
+                "@prefix": false,
+                "@protected": true
+              },
+              "AmountOfSubstance": {
+                "@id": "gs1:AmountOfSubstance",
+                "@prefix": false,
+                "@protected": true
+              },
+              "AmountOfSubstancePerUnitVolume": {
+                "@id": "gs1:AmountOfSubstancePerUnitVolume",
+                "@prefix": false,
+                "@protected": true
+              },
+              "Angle": {
+                "@id": "gs1:Angle",
+                "@prefix": false,
+                "@protected": true
+              },
+              "AngularAcceleration": {
+                "@id": "gs1:AngularAcceleration",
+                "@prefix": false,
+                "@protected": true
+              },
+              "AngularMomentum": {
+                "@id": "gs1:AngularMomentum",
+                "@prefix": false,
+                "@protected": true
+              },
+              "AngularVelocity": {
+                "@id": "gs1:AngularVelocity",
+                "@prefix": false,
+                "@protected": true
+              },
+              "Area": {
+                "@id": "gs1:Area",
+                "@prefix": false,
+                "@protected": true
+              },
+              "Capacitance": {
+                "@id": "gs1:Capacitance",
+                "@prefix": false,
+                "@protected": true
+              },
+              "Conductance": {
+                "@id": "gs1:Conductance",
+                "@prefix": false,
+                "@protected": true
+              },
+              "Conductivity": {
+                "@id": "gs1:Conductivity",
+                "@prefix": false,
+                "@protected": true
+              },
+              "Count": {
+                "@id": "gs1:Count",
+                "@prefix": false,
+                "@protected": true
+              },
+              "Density": {
+                "@id": "gs1:Density",
+                "@prefix": false,
+                "@protected": true
+              },
+              "Dimensionless": {
+                "@id": "gs1:Dimensionless",
+                "@prefix": false,
+                "@protected": true
+              },
+              "DoseEquivalent": {
+                "@id": "gs1:DoseEquivalent",
+                "@prefix": false,
+                "@protected": true
+              },
+              "DoseEquivalentRate": {
+                "@id": "gs1:DoseEquivalentRate",
+                "@prefix": false,
+                "@protected": true
+              },
+              "DynamicViscosity": {
+                "@id": "gs1:DynamicViscosity",
+                "@prefix": false,
+                "@protected": true
+              },
+              "ElectricCharge": {
+                "@id": "gs1:ElectricCharge",
+                "@prefix": false,
+                "@protected": true
+              },
+              "ElectricCurrent": {
+                "@id": "gs1:ElectricCurrent",
+                "@prefix": false,
+                "@protected": true
+              },
+              "ElectricCurrentDensity": {
+                "@id": "gs1:ElectricCurrentDensity",
+                "@prefix": false,
+                "@protected": true
+              },
+              "ElectricFieldStrength": {
+                "@id": "gs1:ElectricFieldStrength",
+                "@prefix": false,
+                "@protected": true
+              },
+              "Energy": {
+                "@id": "gs1:Energy",
+                "@prefix": false,
+                "@protected": true
+              },
+              "Exposure": {
+                "@id": "gs1:Exposure",
+                "@prefix": false,
+                "@protected": true
+              },
+              "Force": {
+                "@id": "gs1:Force",
+                "@prefix": false,
+                "@protected": true
+              },
+              "Frequency": {
+                "@id": "gs1:Frequency",
+                "@prefix": false,
+                "@protected": true
+              },
+              "Illuminance": {
+                "@id": "gs1:Illuminance",
+                "@prefix": false,
+                "@protected": true
+              },
+              "Inductance": {
+                "@id": "gs1:Inductance",
+                "@prefix": false,
+                "@protected": true
+              },
+              "Irradiance": {
+                "@id": "gs1:Irradiance",
+                "@prefix": false,
+                "@protected": true
+              },
+              "KinematicViscosity": {
+                "@id": "gs1:KinematicViscosity",
+                "@prefix": false,
+                "@protected": true
+              },
+              "Length": {
+                "@id": "gs1:Length",
+                "@prefix": false,
+                "@protected": true
+              },
+              "LinearMomentum": {
+                "@id": "gs1:LinearMomentum",
+                "@prefix": false,
+                "@protected": true
+              },
+              "Luminance": {
+                "@id": "gs1:Luminance",
+                "@prefix": false,
+                "@protected": true
+              },
+              "LuminousFlux": {
+                "@id": "gs1:LuminousFlux",
+                "@prefix": false,
+                "@protected": true
+              },
+              "LuminousIntensity": {
+                "@id": "gs1:LuminousIntensity",
+                "@prefix": false,
+                "@protected": true
+              },
+              "MagneticFlux": {
+                "@id": "gs1:MagneticFlux",
+                "@prefix": false,
+                "@protected": true
+              },
+              "MagneticFluxDensity": {
+                "@id": "gs1:MagneticFluxDensity",
+                "@prefix": false,
+                "@protected": true
+              },
+              "MagneticVectorPotential": {
+                "@id": "gs1:MagneticVectorPotential",
+                "@prefix": false,
+                "@protected": true
+              },
+              "Mass": {
+                "@id": "gs1:Mass",
+                "@prefix": false,
+                "@protected": true
+              },
+              "MassConcentration": {
+                "@id": "gs1:MassConcentration",
+                "@prefix": false,
+                "@protected": true
+              },
+              "MassFlowRate": {
+                "@id": "gs1:MassFlowRate",
+                "@prefix": false,
+                "@protected": true
+              },
+              "MassPerAreaTime": {
+                "@id": "gs1:MassPerAreaTime",
+                "@prefix": false,
+                "@protected": true
+              },
+              "MemoryCapacity": {
+                "@id": "gs1:MemoryCapacity",
+                "@prefix": false,
+                "@protected": true
+              },
+              "MolalityOfSolute": {
+                "@id": "gs1:MolalityOfSolute",
+                "@prefix": false,
+                "@protected": true
+              },
+              "MolarEnergy": {
+                "@id": "gs1:MolarEnergy",
+                "@prefix": false,
+                "@protected": true
+              },
+              "MolarMass": {
+                "@id": "gs1:MolarMass",
+                "@prefix": false,
+                "@protected": true
+              },
+              "MolarVolume": {
+                "@id": "gs1:MolarVolume",
+                "@prefix": false,
+                "@protected": true
+              },
+              "Power": {
+                "@id": "gs1:Power",
+                "@prefix": false,
+                "@protected": true
+              },
+              "Pressure": {
+                "@id": "gs1:Pressure",
+                "@prefix": false,
+                "@protected": true
+              },
+              "RadiantFlux": {
+                "@id": "gs1:RadiantFlux",
+                "@prefix": false,
+                "@protected": true
+              },
+              "RadiantIntensity": {
+                "@id": "gs1:RadiantIntensity",
+                "@prefix": false,
+                "@protected": true
+              },
+              "RelativeHumidity": {
+                "@id": "gs1:RelativeHumidity",
+                "@prefix": false,
+                "@protected": true
+              },
+              "Resistance": {
+                "@id": "gs1:Resistance",
+                "@prefix": false,
+                "@protected": true
+              },
+              "Resistivity": {
+                "@id": "gs1:Resistivity",
+                "@prefix": false,
+                "@protected": true
+              },
+              "SolidAngle": {
+                "@id": "gs1:SolidAngle",
+                "@prefix": false,
+                "@protected": true
+              },
+              "SpecificVolume": {
+                "@id": "gs1:SpecificVolume",
+                "@prefix": false,
+                "@protected": true
+              },
+              "Speed": {
+                "@id": "gs1:Speed",
+                "@prefix": false,
+                "@protected": true
+              },
+              "SurfaceDensity": {
+                "@id": "gs1:SurfaceDensity",
+                "@prefix": false,
+                "@protected": true
+              },
+              "SurfaceTension": {
+                "@id": "gs1:SurfaceTension",
+                "@prefix": false,
+                "@protected": true
+              },
+              "Temperature": {
+                "@id": "gs1:Temperature",
+                "@prefix": false,
+                "@protected": true
+              },
+              "Time": {
+                "@id": "gs1:Time",
+                "@prefix": false,
+                "@protected": true
+              },
+              "Torque": {
+                "@id": "gs1:Torque",
+                "@prefix": false,
+                "@protected": true
+              },
+              "Voltage": {
+                "@id": "gs1:Voltage",
+                "@prefix": false,
+                "@protected": true
+              },
+              "Volume": {
+                "@id": "gs1:Volume",
+                "@prefix": false,
+                "@protected": true
+              },
+              "VolumeFlowRate": {
+                "@id": "gs1:VolumeFlowRate",
+                "@prefix": false,
+                "@protected": true
+              },
+              "VolumeFraction": {
+                "@id": "gs1:VolumeFraction",
+                "@prefix": false,
+                "@protected": true
+              },
+              "VolumetricFlux": {
+                "@id": "gs1:VolumetricFlux",
+                "@prefix": false,
+                "@protected": true
+              },
+              "Wavenumber": {
+                "@id": "gs1:Wavenumber",
+                "@prefix": false,
+                "@protected": true
+              }
+            },
+            "@id": "epcis:measurementType",
+            "@type": "@vocab",
             "@prefix": false,
             "@protected": true
           },
           "sensorMetadata": {
             "@id": "epcis:sensorMetadata",
-            "@context": {
-              "startTime": {
-                "@id": "epcis:startTime",
-                "@type": "xsd:dateTimeStamp",
-                "@prefix": false,
-                "@protected": true
-              },
-              "endTime": {
-                "@id": "epcis:endTime",
-                "@type": "xsd:dateTimeStamp",
-                "@prefix": false,
-                "@protected": true
-              },
-              "bizRules": {
-                "@id": "epcis:bizRules",
-                "@type": "@id",
-                "@prefix": false,
-                "@protected": true
-              }
-            },
             "@prefix": false,
             "@protected": true
           },
           "sensorReport": {
             "@id": "epcis:sensorReport",
+            "@prefix": false,
+            "@protected": true
+          },
+          "startTime": {
+            "@id": "epcis:startTime",
+            "@type": "xsd:dateTimeStamp",
+            "@prefix": false,
+            "@protected": true
+          },
+          "endTime": {
+            "@id": "epcis:endTime",
+            "@type": "xsd:dateTimeStamp",
+            "@prefix": false,
+            "@protected": true
+          },
+          "bizRules": {
+            "@id": "epcis:bizRules",
+            "@type": "@id",
+            "@prefix": false,
+            "@protected": true
+          },
+          "exception": {
             "@context": {
-              "type": {
-                "@context": {
-                  "AbsoluteHumidity": {
-                    "@id": "gs1:AbsoluteHumidity",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "AbsorbedDose": {
-                    "@id": "gs1:AbsorbedDose",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "AbsorbedDoseRate": {
-                    "@id": "gs1:AbsorbedDoseRate",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "Acceleration": {
-                    "@id": "gs1:Acceleration",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "Radioactivity": {
-                    "@id": "gs1:Radioactivity",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "Altitude": {
-                    "@id": "gs1:Altitude",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "AmountOfSubstance": {
-                    "@id": "gs1:AmountOfSubstance",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "AmountOfSubstancePerUnitVolume": {
-                    "@id": "gs1:AmountOfSubstancePerUnitVolume",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "Angle": {
-                    "@id": "gs1:Angle",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "AngularAcceleration": {
-                    "@id": "gs1:AngularAcceleration",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "AngularMomentum": {
-                    "@id": "gs1:AngularMomentum",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "AngularVelocity": {
-                    "@id": "gs1:AngularVelocity",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "Area": {
-                    "@id": "gs1:Area",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "Capacitance": {
-                    "@id": "gs1:Capacitance",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "Conductance": {
-                    "@id": "gs1:Conductance",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "Conductivity": {
-                    "@id": "gs1:Conductivity",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "Count": {
-                    "@id": "gs1:Count",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "Density": {
-                    "@id": "gs1:Density",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "Dimensionless": {
-                    "@id": "gs1:Dimensionless",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "DoseEquivalent": {
-                    "@id": "gs1:DoseEquivalent",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "DoseEquivalentRate": {
-                    "@id": "gs1:DoseEquivalentRate",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "DynamicViscosity": {
-                    "@id": "gs1:DynamicViscosity",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "ElectricCharge": {
-                    "@id": "gs1:ElectricCharge",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "ElectricCurrent": {
-                    "@id": "gs1:ElectricCurrent",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "ElectricCurrentDensity": {
-                    "@id": "gs1:ElectricCurrentDensity",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "ElectricFieldStrength": {
-                    "@id": "gs1:ElectricFieldStrength",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "Energy": {
-                    "@id": "gs1:Energy",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "Exposure": {
-                    "@id": "gs1:Exposure",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "Force": {
-                    "@id": "gs1:Force",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "Frequency": {
-                    "@id": "gs1:Frequency",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "Illuminance": {
-                    "@id": "gs1:Illuminance",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "Inductance": {
-                    "@id": "gs1:Inductance",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "Irradiance": {
-                    "@id": "gs1:Irradiance",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "KinematicViscosity": {
-                    "@id": "gs1:KinematicViscosity",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "Length": {
-                    "@id": "gs1:Length",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "LinearMomentum": {
-                    "@id": "gs1:LinearMomentum",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "Luminance": {
-                    "@id": "gs1:Luminance",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "LuminousFlux": {
-                    "@id": "gs1:LuminousFlux",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "LuminousIntensity": {
-                    "@id": "gs1:LuminousIntensity",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "MagneticFlux": {
-                    "@id": "gs1:MagneticFlux",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "MagneticFluxDensity": {
-                    "@id": "gs1:MagneticFluxDensity",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "MagneticVectorPotential": {
-                    "@id": "gs1:MagneticVectorPotential",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "Mass": {
-                    "@id": "gs1:Mass",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "MassConcentration": {
-                    "@id": "gs1:MassConcentration",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "MassFlowRate": {
-                    "@id": "gs1:MassFlowRate",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "MassPerAreaTime": {
-                    "@id": "gs1:MassPerAreaTime",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "MemoryCapacity": {
-                    "@id": "gs1:MemoryCapacity",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "MolalityOfSolute": {
-                    "@id": "gs1:MolalityOfSolute",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "MolarEnergy": {
-                    "@id": "gs1:MolarEnergy",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "MolarMass": {
-                    "@id": "gs1:MolarMass",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "MolarVolume": {
-                    "@id": "gs1:MolarVolume",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "Power": {
-                    "@id": "gs1:Power",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "Pressure": {
-                    "@id": "gs1:Pressure",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "RadiantFlux": {
-                    "@id": "gs1:RadiantFlux",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "RadiantIntensity": {
-                    "@id": "gs1:RadiantIntensity",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "RelativeHumidity": {
-                    "@id": "gs1:RelativeHumidity",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "Resistance": {
-                    "@id": "gs1:Resistance",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "Resistivity": {
-                    "@id": "gs1:Resistivity",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "SolidAngle": {
-                    "@id": "gs1:SolidAngle",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "SpecificVolume": {
-                    "@id": "gs1:SpecificVolume",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "Speed": {
-                    "@id": "gs1:Speed",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "SurfaceDensity": {
-                    "@id": "gs1:SurfaceDensity",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "SurfaceTension": {
-                    "@id": "gs1:SurfaceTension",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "Temperature": {
-                    "@id": "gs1:Temperature",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "Time": {
-                    "@id": "gs1:Time",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "Torque": {
-                    "@id": "gs1:Torque",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "Voltage": {
-                    "@id": "gs1:Voltage",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "Volume": {
-                    "@id": "gs1:Volume",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "VolumeFlowRate": {
-                    "@id": "gs1:VolumeFlowRate",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "VolumeFraction": {
-                    "@id": "gs1:VolumeFraction",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "VolumetricFlux": {
-                    "@id": "gs1:VolumetricFlux",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "Wavenumber": {
-                    "@id": "gs1:Wavenumber",
-                    "@prefix": false,
-                    "@protected": true
-                  }
-                },
-                "@id": "epcis:measurementType",
-                "@type": "@vocab",
+              "ALARM_CONDITION": {
+                "@id": "gs1:ALARM_CONDITION",
                 "@prefix": false,
                 "@protected": true
               },
-              "exception": {
-                "@context": {
-                  "ALARM_CONDITION": {
-                    "@id": "gs1:ALARM_CONDITION",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "ERROR_CONDITION": {
-                    "@id": "gs1:ERROR_CONDITION",
-                    "@prefix": false,
-                    "@protected": true
-                  }
-                },
-                "@id": "epcis:exception",
-                "@type": "@vocab",
-                "@prefix": false,
-                "@protected": true
-              },
-              "coordinateReferenceSystem": {
-                "@id": "epcis:coordinateReferenceSystem",
-                "@type": "@id",
-                "@prefix": false,
-                "@protected": true
-              },
-              "microorganism": {
-                "@id": "epcis:microorganism",
-                "@type": "@id",
-                "@prefix": false,
-                "@protected": true
-              },
-              "chemicalSubstance": {
-                "@id": "epcis:chemicalSubstance",
-                "@type": "@id",
-                "@prefix": false,
-                "@protected": true
-              },
-              "time": {
-                "@id": "epcis:time",
-                "@type": "xsd:dateTimeStamp",
-                "@prefix": false,
-                "@protected": true
-              },
-              "value": {
-                "@id": "epcis:value",
-                "@type": "xsd:double",
-                "@prefix": false,
-                "@protected": true
-              },
-              "component": {
-                "@context": {
-                  "x": {
-                    "@id": "cbv:Comp-x",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "y": {
-                    "@id": "cbv:Comp-y",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "z": {
-                    "@id": "cbv:Comp-z",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "axial_distance": {
-                    "@id": "cbv:Comp-axial_distance",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "azimuth": {
-                    "@id": "cbv:Comp-azimuth",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "height": {
-                    "@id": "cbv:Comp-height",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "spherical_radius": {
-                    "@id": "cbv:Comp-spherical_radius",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "polar_angle": {
-                    "@id": "cbv:Comp-polar_angle",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "elevation_angle": {
-                    "@id": "cbv:Comp-elevation_angle",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "easting": {
-                    "@id": "cbv:Comp-easting",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "northing": {
-                    "@id": "cbv:Comp-northing",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "latitude": {
-                    "@id": "cbv:Comp-latitude",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "longitude": {
-                    "@id": "cbv:Comp-longitude",
-                    "@prefix": false,
-                    "@protected": true
-                  },
-                  "altitude": {
-                    "@id": "cbv:Comp-altitude",
-                    "@prefix": false,
-                    "@protected": true
-                  }
-                },
-                "@id": "epcis:component",
-                "@type": "@vocab",
-                "@prefix": false,
-                "@protected": true
-              },
-              "stringValue": {
-                "@id": "epcis:stringValue",
-                "@prefix": false,
-                "@protected": true
-              },
-              "booleanValue": {
-                "@id": "epcis:booleanValue",
-                "@type": "xsd:boolean",
-                "@prefix": false,
-                "@protected": true
-              },
-              "hexBinaryValue": {
-                "@id": "epcis:hexBinaryValue",
-                "@type": "xsd:hexBinary",
-                "@prefix": false,
-                "@protected": true
-              },
-              "uriValue": {
-                "@id": "epcis:uriValue",
-                "@type": "@id",
-                "@prefix": false,
-                "@protected": true
-              },
-              "minValue": {
-                "@id": "epcis:minValue",
-                "@type": "xsd:double",
-                "@prefix": false,
-                "@protected": true
-              },
-              "maxValue": {
-                "@id": "epcis:maxValue",
-                "@type": "xsd:double",
-                "@prefix": false,
-                "@protected": true
-              },
-              "meanValue": {
-                "@id": "epcis:meanValue",
-                "@type": "xsd:double",
-                "@prefix": false,
-                "@protected": true
-              },
-              "sDev": {
-                "@id": "epcis:sDev",
-                "@type": "xsd:double",
-                "@prefix": false,
-                "@protected": true
-              },
-              "percRank": {
-                "@id": "epcis:percRank",
-                "@type": "xsd:double",
-                "@prefix": false,
-                "@protected": true
-              },
-              "percValue": {
-                "@id": "epcis:percValue",
-                "@type": "xsd:double",
+              "ERROR_CONDITION": {
+                "@id": "gs1:ERROR_CONDITION",
                 "@prefix": false,
                 "@protected": true
               }
             },
+            "@id": "epcis:exception",
+            "@type": "@vocab",
+            "@prefix": false,
+            "@protected": true
+          },
+          "coordinateReferenceSystem": {
+            "@id": "epcis:coordinateReferenceSystem",
+            "@type": "@id",
+            "@prefix": false,
+            "@protected": true
+          },
+          "microorganism": {
+            "@id": "epcis:microorganism",
+            "@type": "@id",
+            "@prefix": false,
+            "@protected": true
+          },
+          "chemicalSubstance": {
+            "@id": "epcis:chemicalSubstance",
+            "@type": "@id",
+            "@prefix": false,
+            "@protected": true
+          },
+          "value": {
+            "@id": "epcis:value",
+            "@type": "xsd:double",
+            "@prefix": false,
+            "@protected": true
+          },
+          "component": {
+            "@context": {
+              "x": {
+                "@id": "cbv:Comp-x",
+                "@prefix": false,
+                "@protected": true
+              },
+              "y": {
+                "@id": "cbv:Comp-y",
+                "@prefix": false,
+                "@protected": true
+              },
+              "z": {
+                "@id": "cbv:Comp-z",
+                "@prefix": false,
+                "@protected": true
+              },
+              "axial_distance": {
+                "@id": "cbv:Comp-axial_distance",
+                "@prefix": false,
+                "@protected": true
+              },
+              "azimuth": {
+                "@id": "cbv:Comp-azimuth",
+                "@prefix": false,
+                "@protected": true
+              },
+              "height": {
+                "@id": "cbv:Comp-height",
+                "@prefix": false,
+                "@protected": true
+              },
+              "spherical_radius": {
+                "@id": "cbv:Comp-spherical_radius",
+                "@prefix": false,
+                "@protected": true
+              },
+              "polar_angle": {
+                "@id": "cbv:Comp-polar_angle",
+                "@prefix": false,
+                "@protected": true
+              },
+              "elevation_angle": {
+                "@id": "cbv:Comp-elevation_angle",
+                "@prefix": false,
+                "@protected": true
+              },
+              "easting": {
+                "@id": "cbv:Comp-easting",
+                "@prefix": false,
+                "@protected": true
+              },
+              "northing": {
+                "@id": "cbv:Comp-northing",
+                "@prefix": false,
+                "@protected": true
+              },
+              "latitude": {
+                "@id": "cbv:Comp-latitude",
+                "@prefix": false,
+                "@protected": true
+              },
+              "longitude": {
+                "@id": "cbv:Comp-longitude",
+                "@prefix": false,
+                "@protected": true
+              },
+              "altitude": {
+                "@id": "cbv:Comp-altitude",
+                "@prefix": false,
+                "@protected": true
+              }
+            },
+            "@id": "epcis:component",
+            "@type": "@vocab",
+            "@prefix": false,
+            "@protected": true
+          },
+          "stringValue": {
+            "@id": "epcis:stringValue",
+            "@prefix": false,
+            "@protected": true
+          },
+          "booleanValue": {
+            "@id": "epcis:booleanValue",
+            "@type": "xsd:boolean",
+            "@prefix": false,
+            "@protected": true
+          },
+          "hexBinaryValue": {
+            "@id": "epcis:hexBinaryValue",
+            "@type": "xsd:hexBinary",
+            "@prefix": false,
+            "@protected": true
+          },
+          "uriValue": {
+            "@id": "epcis:uriValue",
+            "@type": "@id",
+            "@prefix": false,
+            "@protected": true
+          },
+          "minValue": {
+            "@id": "epcis:minValue",
+            "@type": "xsd:double",
+            "@prefix": false,
+            "@protected": true
+          },
+          "maxValue": {
+            "@id": "epcis:maxValue",
+            "@type": "xsd:double",
+            "@prefix": false,
+            "@protected": true
+          },
+          "meanValue": {
+            "@id": "epcis:meanValue",
+            "@type": "xsd:double",
+            "@prefix": false,
+            "@protected": true
+          },
+          "sDev": {
+            "@id": "epcis:sDev",
+            "@type": "xsd:double",
+            "@prefix": false,
+            "@protected": true
+          },
+          "percRank": {
+            "@id": "epcis:percRank",
+            "@type": "xsd:double",
+            "@prefix": false,
+            "@protected": true
+          },
+          "percValue": {
+            "@id": "epcis:percValue",
+            "@type": "xsd:double",
             "@prefix": false,
             "@protected": true
           }
@@ -1527,18 +1506,6 @@
           "reason": {
             "@id": "epcis:reason",
             "@type": "@vocab",
-            "@context": {
-              "did_not_occur": {
-                "@id": "cbv:ER-did_not_occur",
-                "@prefix": false,
-                "@protected": true
-              },
-              "incorrect_data": {
-                "@id": "cbv:ER-incorrect_data",
-                "@prefix": false,
-                "@protected": true
-              }
-            },
             "@prefix": false,
             "@protected": true
           },
@@ -1552,6 +1519,16 @@
           "declarationTime": {
             "@id": "epcis:declarationTime",
             "@type": "xsd:dateTimeStamp",
+            "@prefix": false,
+            "@protected": true
+          },
+          "did_not_occur": {
+            "@id": "cbv:ER-did_not_occur",
+            "@prefix": false,
+            "@protected": true
+          },
+          "incorrect_data": {
+            "@id": "cbv:ER-incorrect_data",
             "@prefix": false,
             "@protected": true
           }
