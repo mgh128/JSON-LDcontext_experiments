@@ -478,7 +478,6 @@
         "@id": "epcis:sourceList",
         "@container": "@set",
         "@context": {
-          "@protected": true,
           "source": {
             "@id": "epcis:sourceOrDestination",
             "@type": "@id",
@@ -507,8 +506,7 @@
             },
             "@prefix": false,
             "@protected": true
-          },
-          "@propagate": false
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -517,7 +515,6 @@
         "@id": "epcis:destinationList",
         "@container": "@set",
         "@context": {
-          "@protected": true,
           "destination": {
             "@id": "epcis:sourceOrDestination",
             "@type": "@id",
@@ -546,8 +543,7 @@
             },
             "@prefix": false,
             "@protected": true
-          },
-          "@propagate": false
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -724,7 +720,6 @@
             }
           },
           {
-            "@protected": true,
             "set": {
               "@id": "epcis:set",
               "@type": "@vocab",
@@ -738,8 +733,7 @@
               "@container": "@set",
               "@prefix": false,
               "@protected": true
-            },
-            "@propagate": false
+            }
           }
         ],
         "@prefix": false,
@@ -772,7 +766,6 @@
         "@id": "epcis:bizTransactionList",
         "@container": "@set",
         "@context": {
-          "@protected": true,
           "bizTransaction": {
             "@id": "@id",
             "@prefix": false,
@@ -850,8 +843,7 @@
             },
             "@prefix": false,
             "@protected": true
-          },
-          "@propagate": false
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -905,7 +897,6 @@
         "@id": "epcis:sensorElementList",
         "@container": "@set",
         "@context": {
-          "@protected": true,
           "deviceID": {
             "@id": "epcis:deviceID",
             "@type": "@id",
@@ -944,7 +935,6 @@
           "sensorMetadata": {
             "@id": "epcis:sensorMetadata",
             "@context": {
-              "@protected": true,
               "startTime": {
                 "@id": "epcis:startTime",
                 "@type": "xsd:dateTimeStamp",
@@ -962,8 +952,7 @@
                 "@type": "@id",
                 "@prefix": false,
                 "@protected": true
-              },
-              "@propagate": false
+              }
             },
             "@prefix": false,
             "@protected": true
@@ -971,7 +960,6 @@
           "sensorReport": {
             "@id": "epcis:sensorReport",
             "@context": {
-              "@protected": true,
               "type": {
                 "@context": {
                   "AbsoluteHumidity": {
@@ -1524,13 +1512,11 @@
                 "@type": "xsd:double",
                 "@prefix": false,
                 "@protected": true
-              },
-              "@propagate": false
+              }
             },
             "@prefix": false,
             "@protected": true
-          },
-          "@propagate": false
+          }
         },
         "@prefix": false,
         "@protected": true
@@ -1538,7 +1524,6 @@
       "errorDeclaration": {
         "@id": "epcis:errorDeclaration",
         "@context": {
-          "@protected": true,
           "reason": {
             "@id": "epcis:reason",
             "@type": "@vocab",
@@ -1569,8 +1554,7 @@
             "@type": "xsd:dateTimeStamp",
             "@prefix": false,
             "@protected": true
-          },
-          "@propagate": false
+          }
         },
         "@prefix": false,
         "@protected": true
