@@ -762,12 +762,7 @@
         "@id": "epcis:bizTransactionList",
         "@container": "@set",
         "@context": {
-          "bizTransaction": {
-            "@id": "epcis:bizTransaction",
-            "@type": "@id",
-            "@prefix": false,
-            "@protected": true
-          },
+          "bizTransaction": "@id",
           "type": {
             "@id": "epcis:bizTransactionType",
             "@type": "@vocab",
